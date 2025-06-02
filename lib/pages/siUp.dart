@@ -64,6 +64,7 @@ class _siUpState extends State<siUp> {
                   'assets/animations/animation-2.json',
                   height: 200
               ),
+              SizedBox(height: 20,),
               Text("Join The Game ",style:
               TextStyle(
                   fontSize: 35,

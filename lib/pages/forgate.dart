@@ -20,9 +20,10 @@ class _forgateState extends State<forgate> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: AppColors.deep_black,
       body:
-      Center(
+      SafeArea(
         child: SingleChildScrollView(
           child: Column(
           
@@ -31,9 +32,8 @@ class _forgateState extends State<forgate> {
             children: [
               Lottie.asset(
                   'assets/animations/animation-1.json',
-                  height: 200
+                  height: 250,
               ),
-              SizedBox(height: 40,),
               Text("Send a Raven"
                 , style:
                 TextStyle(
