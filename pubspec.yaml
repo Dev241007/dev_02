@@ -37,7 +37,10 @@ dependencies:
   flutter_svg: ^2.1.0
   firebase_core: ^3.13.1
   firebase_auth: ^5.5.4
+  cloud_firestore: ^5.6.8
   get: ^4.7.2
+  xml: ^6.5.0
+  lottie: ^3.3.1
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +68,16 @@ flutter:
   assets:
     - assets/icons/left-arrow.svg
     - assets/icons/profile.svg
+    - assets/images/house-stark.jpg
+    - assets/data/houses.xml
+    - assets/images/house-targaryen.jpg
+    - assets/images/house-lennister.jpg
+    - assets/images/
+    - assets/animations/
+#    - assets/animations/animation-1.json
+#    - assets/animations/animation-2.json
+#    - assets/animations/animation-3.json
+#
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,0 +1,130 @@
+<houses>
+    <item>
+        <name>House Stark</name>
+        <image>assets/images/house-stark.jpg</image>
+        <description><![CDATA[House Stark of Winterfell
+
+            House Stark is one of the oldest and most noble families in the Seven Kingdoms, ruling the North for over 8,000 years. Known for their honor, resilience, and deep connection to ancient traditions, the Starks symbolize loyalty and endurance in the brutal world of Westeros.
+
+        Motto: "Winter is Coming"
+        Region: The North
+        Seat: Winterfell
+        Ancestry: Descendants of
+        the First Men
+        Religion: Old Gods of the Forest
+        Sigil: A grey direwolf on a white field
+
+            House Stark descends from the First Men, the original human settlers of Westeros. Unlike many noble houses that converted to the Faith of the Seven, the Starks remained loyal to the Old Gods, worshiping in godswoods with sacred heart trees. Their ancient lineage is preserved in their customs, beliefs, and the solemn honor by which they live.
+
+            Originally the Kings in the North, the Starks ruled independently from Winterfell until the Targaryen conquest. Torrhen Stark, known as "The King Who Knelt", bent the knee to Aegon the Conqueror to avoid bloodshed, and in return, his house retained control of the North as its Wardens.
+
+    Role in Game of Thrones:
+
+            At the start of the series, Eddard "Ned" Stark is the Lord of Winterfell. An honorable and dutiful man, Ned becomes Hand of the King to Robert Baratheon, a position that ultimately leads to his downfall due to his refusal to participate in the political intrigue of King’s Landing. His death sets off a chain of tragic and transformative events for the Stark children:
+
+            Robb Stark leads a rebellion as King in the North but is betrayed and killed at the Red Wedding.
+
+            Sansa Stark evolves from a naive noble girl into a shrewd and capable political figure.
+
+            Arya Stark becomes a skilled assassin trained by the Faceless Men in Braavos.
+
+            Bran Stark, after becoming paralyzed, discovers mystical powers and becomes the Three-Eyed Raven.
+
+            Rickon Stark, the youngest, is tragically killed during the Battle of the Bastards.
+
+            Jon Snow, raised as Ned’s illegitimate son, is revealed to be the son of Lyanna Stark and Rhaegar Targaryen. He becomes Lord Commander of the Night’s Watch and later a key leader in the fight against the White Walkers.
+
+    The Stark Legacy:
+
+            Despite immense loss and betrayal, House Stark rises again. Sansa is crowned Queen in the North, making the North an independent kingdom once more. Bran is elected King of the Six Kingdoms, symbolizing a new political order based on wisdom and neutrality. Arya sets sail west of Westeros to explore uncharted lands, while Jon Snow is exiled to the far North, returning to the roots of the realm.
+
+
+    House Stark represents:
+
+            Honor and Integrity
+
+            Survival in Harsh Conditions
+
+            The Old Ways vs. Modern Politics
+
+            Family Loyalty
+
+            The Cycle of Death and Rebirth
+            (Winter is Coming)]]></description>
+    </item>
+    <item>
+        <name>House Targaryen</name>
+        <image>assets/images/house-targaryen.jpg</image>
+        <description>House Targaryen of Dragonstone is a noble family of Valyrian descent that once ruled the Seven Kingdoms of Westeros.</description>
+    </item>
+    <item>
+        <name>House Lannister</name>
+        <image>assets/images/house-lennister.jpg</image>
+        <description>House Lannister of Casterly Rock is one of the richest and most powerful families in Westeros, known for their motto "Hear Me Roar!"</description>
+    </item>
+    <item>
+        <name>House Baratheon</name>
+        <image>assets/images/house-baratheon.jpg</image>
+        <description>House Baratheon is a noble house of Storm's End and was founded by Orys Baratheon, a general of Aegon the Conqueror.</description>
+    </item>
+    <item>
+        <name>House Greyjoy</name>
+        <image>assets/images/house-greyjoy.jpg</image>
+        <description>House Greyjoy of Pyke rules over the Iron Islands. Their motto is "We Do Not Sow."</description>
+    </item>
+    <item>
+        <name>House Arryn</name>
+        <image>assets/images/house-arryn.jpg</image>
+        <description>House Arryn is one of the oldest noble families in Westeros, ruling the Vale of Arryn from the Eyrie.</description>
+    </item>
+    <item>
+        <name>House Martell</name>
+        <image>assets/images/house-martell.jpg</image>
+        <description>House Martell of Sunspear rules over Dorne. Their words are "Unbowed, Unbent, Unbroken."</description>
+    </item>
+    <item>
+        <name>House Tully</name>
+        <image>assets/images/house-tully.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Tyrell</name>
+        <image>assets/images/house-tyrell.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Hightower</name>
+        <image>assets/images/house-hightower.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Velaryon</name>
+        <image>assets/images/house-velaryon.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Mormont</name>
+        <image>assets/images/house-mormont.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Frey</name>
+        <image>assets/images/house-frey.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Blackwood</name>
+        <image>assets/images/house-blackwood.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Tarly</name>
+        <image>assets/images/house-tarly.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+    <item>
+        <name>House Bolton</name>
+        <image>assets/images/house-bolton.jpg</image>
+        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+    </item>
+</houses>

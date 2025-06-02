@@ -3,6 +3,8 @@ import 'package:dev_02/pages/wrapper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:dev_02/pages/colors.dart';
+import 'package:lottie/lottie.dart';
 
 class siUp extends StatefulWidget {
   const siUp({super.key});
@@ -50,99 +52,120 @@ class _siUpState extends State<siUp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.deep_black,
       body:
       Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text("Sign Up ",style:
-            TextStyle(
-                fontSize: 35,
-                fontWeight: FontWeight.bold
-            ),
-            ),
-            SizedBox(
-              height: 30,
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: Container(
-                width: 400,
-                child: TextFormField(
-                  controller: email,
-                  keyboardType: TextInputType.emailAddress,
-                  decoration: InputDecoration(
-                      label: Text("Email"),
-                      hintText: "Enter the Email",
-                      prefixIcon: Icon(Icons.email),
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(10)
-                      )
-
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Lottie.asset(
+                  'assets/animations/animation-2.json',
+                  height: 200
+              ),
+              Text("Join The Game ",style:
+              TextStyle(
+                  fontSize: 35,
+                  color: AppColors.royal_gold,
+                  fontWeight: FontWeight.bold
+              ),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Container(
+                  width: 350,
+                  child: TextFormField(
+                    style: TextStyle(color: AppColors.textWhite),
+                    controller: email,
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: InputDecoration(
+                      filled: true,
+                        fillColor: AppColors.dark_gray,
+                        label: Text("Raven’s Address"),
+                        labelStyle: TextStyle(color: AppColors.textSecondary),
+                        hintText: "Enter Your Raven’s Address",
+                        hintStyle: TextStyle(color: AppColors.textSecondary),
+                        prefixIcon: Icon(Icons.email,color: AppColors.royal_gold,),
+                        focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: const BorderSide(color:AppColors.royal_gold)
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: AppColors.textSecondary),
+                    borderRadius: BorderRadius.circular(10),
                   ),
-
+                    ),
+          
+                  ),
                 ),
               ),
-            ),
-            SizedBox(
-              height: 30,
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: Container(
-                width: 400,
-                child: TextFormField(
-                  controller: password,
-                  keyboardType: TextInputType.visiblePassword,
-                  decoration: InputDecoration(
-
-                      label: Text("Password"),
-                      hintText: "Enter Password",
-                      prefixIcon: Icon(Icons.password),
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(10)
-                      )
-
+              SizedBox(
+                height: 30,
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Container(
+                  width: 350,
+                  child: TextFormField(
+                    controller: password,
+                    keyboardType: TextInputType.visiblePassword,
+                    decoration: InputDecoration(
+                      filled: true,
+                      fillColor: AppColors.dark_gray,
+                        label: Text("Sacred Oath"),
+                        labelStyle: TextStyle(color: AppColors.textSecondary),
+                        hintText: "Enter The Sacred Words",
+                        hintStyle: TextStyle(color: AppColors.textSecondary),
+                        prefixIcon: Icon(Icons.password,color: AppColors.royal_gold,),
+                        focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          borderSide: const BorderSide(color:AppColors.royal_gold)
+                        ),
+                      enabledBorder: OutlineInputBorder(
+                        borderSide: const BorderSide(color: AppColors.textSecondary),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                    ),
+          
                   ),
-
                 ),
               ),
-            ),
-            SizedBox(
-              height: 30,
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: MaterialButton(
-                minWidth: 100,
-                height: 40,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                onPressed: (() =>signup()),
-                child: Text('Sign Up'),
-                color: Colors.black,
-                textColor: Colors.white,),
-            ),
-
-            Text("Already Have Account ?"),
-            Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: MaterialButton(
-                minWidth: 100,
-                height: 40,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => login() ));
-                },
-                child: Text('Login '),
-                color: Colors.transparent,
-                elevation: 0.0,
-                textColor: Colors.blue,),
-            ),
-          ],
+              SizedBox(
+                height: 30,
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: MaterialButton(
+                  minWidth: 300,
+                  height: 45,
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  onPressed: (() =>signup()),
+                  child: Text('Join the Realm'),
+                  color: AppColors.royal_gold,
+                  textColor: Colors.black,),
+              ),
+          
+              Text("Already pledged ?",style: TextStyle(color: AppColors.royal_gold)),
+              Padding(
+                padding: const EdgeInsets.all(2.0),
+                child: MaterialButton(
+                  minWidth: 50,
+                  height: 40,
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => login() ));
+                  },
+                  child: Text('Enter the gates'),
+                  color: Colors.transparent,
+                  elevation: 0.0,
+                  textColor: AppColors.textSecondary,),
+              ),
+            ],
+          ),
         ),
       ),
     );

@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:dev_02/pages/colors.dart';
+import 'package:lottie/lottie.dart';
 
 
 class forgate extends StatefulWidget {
@@ -18,70 +20,89 @@ class _forgateState extends State<forgate> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      backgroundColor: AppColors.deep_black,
       body:
       Center(
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text("Forget Password  "
-              , style:
-              TextStyle(
-                fontSize: 35,
-                fontWeight: FontWeight.bold,
+        child: SingleChildScrollView(
+          child: Column(
+          
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Lottie.asset(
+                  'assets/animations/animation-1.json',
+                  height: 200
               ),
-            ),
-            SizedBox(
-              height: 40,
-            ),
-            Column(
-              children: [
-
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Container(
-                    width: 400,
-                    child: TextFormField(
-                      controller: email,
-                      keyboardType: TextInputType.emailAddress,
-                      decoration: InputDecoration(
-                        labelText:"Email",
-                        hintText: "Enter Email",
-                        prefixIcon: Icon(Icons.email),
-                        border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(10)
+              SizedBox(height: 40,),
+              Text("Send a Raven"
+                , style:
+                TextStyle(
+                  fontSize: 35,
+                  color: AppColors.royal_gold,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+          
+              SizedBox(
+                height: 20,
+              ),
+              Column(
+                children: [
+          
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: Container(
+                      width: 350,
+                      child: TextFormField(
+                        style: TextStyle(color: AppColors.textWhite),
+                        controller: email,
+                        keyboardType: TextInputType.emailAddress,
+                        decoration: InputDecoration(
+                          filled: true,
+                          fillColor: AppColors.dark_gray,
+                          labelText:"Raven’s Address",
+                          labelStyle: TextStyle(color: AppColors.textSecondary),
+                          hintText: "Enter Your Raven’s Address",
+                          hintStyle: TextStyle(color: AppColors.textSecondary),
+                          prefixIcon: Icon(Icons.email,color: AppColors.royal_gold),
+                          focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            borderSide: const BorderSide(color: AppColors.royal_gold)
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: const BorderSide(color: AppColors.textSecondary)
+                          )
                         ),
+                        onChanged: (String value ) {
+                        },// use to store your email id in this field
+                        validator: (value){
+                          return value!.isEmpty ? "Please Enter Email " : null;
+                        },
                       ),
-                      onChanged: (String value ) {
-                      },// use to store your email id in this field
-                      validator: (value){
-                        return value!.isEmpty ? "Please Enter Email " : null;
-                      },
                     ),
                   ),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-
-
-              ],
-            ),
-
-
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: MaterialButton(
-                  minWidth: 100,
-                  height: 40,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                  onPressed:  (()=>reset()),
-                  child: Text("Send link"),
-                  color: Colors.black,
-                  textColor: Colors.white),
-            ),
-          ],
+                  SizedBox(
+                    height: 30,
+                  ),
+          
+                ],
+              ),
+          
+          
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: MaterialButton(
+                    minWidth: 300,
+                    height: 45,
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                    onPressed:  (()=>reset()),
+                    child: Text("Send Reven"),
+                    color: AppColors.royal_gold,
+                    textColor: Colors.black),
+              ),
+            ],
+          ),
         ),
       ),
     );
