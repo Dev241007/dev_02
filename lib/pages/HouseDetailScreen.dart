@@ -1,4 +1,5 @@
 import 'package:dev_02/pages/HousesPage.dart';
+import 'package:dev_02/pages/colors.dart';
 import 'package:flutter/material.dart';
 
 class Housedetailscreen extends StatelessWidget {
@@ -16,10 +17,13 @@ class Housedetailscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.deep_black,
       appBar: AppBar(
-        title: Text(houseName),
+        backgroundColor: Colors.transparent,
+        scrolledUnderElevation: 0.0,
+        title: Text(houseName,style: TextStyle(fontFamily: 'GameOfThrones',fontSize: 20,color: AppColors.royal_gold,fontWeight: FontWeight.w800),),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon:  Icon(Icons.arrow_back,color: AppColors.royal_gold,),
           onPressed: () {
             Navigator.pop(context);
           },
@@ -28,23 +32,25 @@ class Housedetailscreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Image.asset(imageUrl),
             Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(
-                houseName,
-                style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-                textAlign: TextAlign.center,
-              ),
+              padding: const EdgeInsets.all(10),
+              child: Card(
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
+                  child: ClipRRect(
+borderRadius: BorderRadius.circular(30),
+                      child: Image.asset(imageUrl))),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Text(
-                description,
-                style: const TextStyle(fontSize: 16),
-                textAlign: TextAlign.justify,
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Text(
+                  description,
+                  style: TextStyle(fontSize: 19,color: AppColors.textSecondary,fontWeight: FontWeight.w900),
+                  textAlign: TextAlign.justify,
+
+                ),
               ),
-            ),
+
+            SizedBox(height: 10,)
           ],
         ),
       ),

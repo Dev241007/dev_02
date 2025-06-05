@@ -1,4 +1,5 @@
 import 'package:dev_02/pages/HouseDetailScreen.dart';
+import 'package:dev_02/pages/colors.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -39,12 +40,15 @@ class _HousesPageState extends State<HousesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.deep_black,
       appBar: AppBar(
-        title: Text(titles[myIndex]),
+        backgroundColor: Colors.transparent,
+        scrolledUnderElevation: 0.0,
+        title: Text(titles[myIndex],style: TextStyle(fontFamily: 'GameOfThrones',fontSize: 18,color: AppColors.royal_gold),),
         centerTitle: false,
         actions: [
           IconButton(
-            icon: const Icon(Icons.logout),
+            icon:  Icon(Icons.logout,color:AppColors.royal_gold ,),
             onPressed: () async {
               await FirebaseAuth.instance.signOut();
             },
@@ -60,12 +64,13 @@ class _HousesPageState extends State<HousesPage> {
           });
         },
         showUnselectedLabels: false,
-        backgroundColor: Colors.white,
+        selectedItemColor: AppColors.royal_gold,
+        backgroundColor: Colors.transparent,
         type: BottomNavigationBarType.fixed,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Houses"),
-          BottomNavigationBarItem(icon: Icon(Icons.whatshot), label: "Dragons"),
-          BottomNavigationBarItem(icon: Icon(Icons.lightbulb), label: "Theory"),
+        items:  [
+          BottomNavigationBarItem(icon: Icon(Icons.home,color: AppColors.royal_gold,), label: "Houses" ),
+          BottomNavigationBarItem(icon: Icon(Icons.whatshot,color: AppColors.royal_gold), label: "Dragons"),
+          BottomNavigationBarItem(icon: Icon(Icons.lightbulb,color: AppColors.royal_gold), label: "Theory"),
         ],
       ),
     );
@@ -141,8 +146,8 @@ Widget buildHouses() {
                           h.name,
                           style: const TextStyle(
                             color: Colors.white,
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            fontFamily: 'GameOfThrones',
                             shadows: [
                               Shadow(
                                 blurRadius: 8,
@@ -170,10 +175,10 @@ Widget buildHouses() {
 
 
 Widget buildDragon() {
-  return const Center(
+  return Center(
     child: Text(
-      "Theories & Lore Coming Soon",
-      style: TextStyle(fontSize: 18),
+      "Dragons Are Coming Soon",
+      style: TextStyle(fontSize: 18,color: AppColors.royal_gold),
     ),
   );
 }
@@ -183,10 +188,10 @@ Widget buildDragon() {
 
 
 Widget buildTheory() {
-  return const Center(
+  return Center(
     child: Text(
       "Theories & Lore Coming Soon",
-      style: TextStyle(fontSize: 18),
+      style: TextStyle(fontSize: 18,color: AppColors.royal_gold),
     ),
   );
 }

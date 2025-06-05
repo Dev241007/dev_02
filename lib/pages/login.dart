@@ -37,12 +37,12 @@ class _loginState extends State<login> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25,vertical: 25),
-                child: Text("Enter The Realm"
+                child: Text("Enter The  Realm"
                   , style:
                   TextStyle(
-                    fontSize: 35,
+                    fontFamily: 'GameOfThrones',
+                    fontSize: 25,
                     color: AppColors.royal_gold,
-                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
@@ -125,45 +125,64 @@ class _loginState extends State<login> {
                   ),
                 ],
               ),
-          
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: Align(
-            alignment: Alignment.center,
-            child: Row(
-              children: [
-              MaterialButton(onPressed: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => forgate()));
-              }, child:
-              Text("Send a Raven to recover your words.?"),
-                mouseCursor: SystemMouseCursors.click,
-              elevation: 0.0,
-          
-              textColor: AppColors.textSecondary,)
-              ],
-            ),
-          ),
-                ),
-          
-          
-          
+
               Padding(
-                padding: const EdgeInsets.only(top: 15.0),
-                child: MaterialButton(
-                    minWidth: 300,
-                    height: 45,
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                    onPressed:  (()=>signIn()),
-                    child: Text('Unlock the Gates',style: TextStyle(
-                      color: Colors.black
-                    ),),
-                    color: AppColors.royal_gold,
-                    textColor: Colors.white),
-          
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Row(
+                    children: [
+                      OutlinedButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => forgate()),
+                          );
+                        },
+                        style: OutlinedButton.styleFrom(
+                          side: BorderSide.none, // optional: removes border
+                          textStyle: const TextStyle(
+                            fontFamily: 'GameOfThrones',
+                            fontSize: 10,
+                          ),
+                          foregroundColor: AppColors.textSecondary,
+                        ),
+                        child: const Text("Send a Raven to recover your words.?"),
+                      ),
+                    ],
+                  ),
+                ),
               ),
+
+
+              Padding(
+                padding: const EdgeInsets.all(10),
+                child: OutlinedButton(
+                  onPressed:  (()=>signIn()),
+                  style: OutlinedButton.styleFrom(
+                    side: BorderSide(
+                      color: AppColors.royal_gold,
+                      width: 3.0,
+                    ),
+                    backgroundColor: AppColors.royal_gold,
+                    foregroundColor: AppColors.deep_black,
+                    textStyle: const TextStyle(
+                      fontFamily: 'GameOfThrones',
+                      fontSize: 15,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                  child: const Text("Enter The Realm"),
+                ),
+              ),
+
+
+
           Padding(
             padding: const EdgeInsets.only(top: 20),
-            child: Text("New to the Realm? Join the Game.? ",style: TextStyle(color: AppColors.royal_gold),),
+            child: Text("New to the Realm? Join the Game.? ",style: TextStyle(color: AppColors.royal_gold,fontFamily: 'GameOfThrones',fontSize: 14),),
           ),
           OutlinedButton(
             onPressed: () {
@@ -173,6 +192,7 @@ class _loginState extends State<login> {
               );
             },
             style: OutlinedButton.styleFrom(
+              textStyle: TextStyle(fontFamily: 'GameOfThrones',fontSize: 12),
               side: const BorderSide(color: Colors.transparent),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),

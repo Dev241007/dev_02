@@ -2,62 +2,79 @@
     <item>
         <name>House Stark</name>
         <image>assets/images/house-stark.jpg</image>
-        <description><![CDATA[House Stark of Winterfell
+        <description><![CDATA[
+House Stark of Winterfell
 
-            House Stark is one of the oldest and most noble families in the Seven Kingdoms, ruling the North for over 8,000 years. Known for their honor, resilience, and deep connection to ancient traditions, the Starks symbolize loyalty and endurance in the brutal world of Westeros.
+House Stark is one of the oldest and most revered noble families in Westeros. As the principal house of the North, they have ruled the vast, cold, and rugged northern region for thousands of years, first as Kings in the North and later as Wardens of the North after the Targaryen conquest. Their ancestral seat is Winterfell, a massive castle located in the center of the North, and their house words, "Winter is Coming", serve not only as a warning of harsh winters, but also as a philosophical reminder of mortality, vigilance, and the inevitability of dark times.
 
-        Motto: "Winter is Coming"
-        Region: The North
-        Seat: Winterfell
-        Ancestry: Descendants of
-        the First Men
-        Religion: Old Gods of the Forest
-        Sigil: A grey direwolf on a white field
+The Starks descend from the First Men, the original human inhabitants of Westeros. Unlike many of the other noble families who came from the Andals or Valyrians, the Starks maintained many of the old customs of the First Men. They worship the Old Gods of the Forest, whose sacred groves and heart trees are still respected in the North. This deep-rooted connection to tradition and the land sets the Starks apart from the more southern, politically manipulative houses.
 
-            House Stark descends from the First Men, the original human settlers of Westeros. Unlike many noble houses that converted to the Faith of the Seven, the Starks remained loyal to the Old Gods, worshiping in godswoods with sacred heart trees. Their ancient lineage is preserved in their customs, beliefs, and the solemn honor by which they live.
+For thousands of years, the Starks were Kings in the North until Torrhen Stark, known as "The King Who Knelt," chose to submit peacefully to Aegon the Conqueror during his conquest of Westeros. In exchange, the Starks retained dominion over the North as its Wardens. Despite this act of submission, House Stark remained fiercely independent, proud, and honorable, upholding the values of loyalty, justice, and humility.
 
-            Originally the Kings in the North, the Starks ruled independently from Winterfell until the Targaryen conquest. Torrhen Stark, known as "The King Who Knelt", bent the knee to Aegon the Conqueror to avoid bloodshed, and in return, his house retained control of the North as its Wardens.
+At the start of Game of Thrones, the head of House Stark is Lord Eddard "Ned" Stark, a stoic and honorable man known for his unwavering sense of duty. He is married to Catelyn Tully, and together they have five children: Robb, Sansa, Arya, Bran, and Rickon. Ned also raises his illegitimate son Jon Snow, whose true parentage is later revealed to be one of the series’ most significant secrets—he is the son of Ned’s sister Lyanna Stark and Rhaegar Targaryen, making him a legitimate heir to the Targaryen line.
 
-    Role in Game of Thrones:
+Tragedy strikes early when Ned travels to King's Landing to serve as Hand of the King to his old friend Robert Baratheon. His refusal to play political games eventually leads to his execution, a shocking moment that establishes the brutal unpredictability of the series. Following Ned’s death, his family is scattered: Robb declares himself King in the North, Arya flees south, Sansa is held in the capital, Bran is crippled, and Jon joins the Night's Watch beyond the Wall.
 
-            At the start of the series, Eddard "Ned" Stark is the Lord of Winterfell. An honorable and dutiful man, Ned becomes Hand of the King to Robert Baratheon, a position that ultimately leads to his downfall due to his refusal to participate in the political intrigue of King’s Landing. His death sets off a chain of tragic and transformative events for the Stark children:
+Despite immense suffering—including betrayals, battles, and the infamous Red Wedding where Robb, Catelyn, and many loyal followers are killed—the Stark family endures. Arya becomes a deadly assassin trained in Braavos, Sansa matures into a strong political player, and Bran becomes the mystical Three-Eyed Raven, holding the collective memory of Westeros. Jon Snow rises to Lord Commander of the Night's Watch and later becomes a central figure in the battle against the Night King and the White Walkers.
 
-            Robb Stark leads a rebellion as King in the North but is betrayed and killed at the Red Wedding.
+House Stark’s perseverance is one of the key themes of Game of Thrones. Though battered and broken, the surviving members of the family ultimately reclaim their home and play critical roles in shaping the fate of Westeros. By the end of the series, Sansa Stark is crowned Queen in the North, declaring the North an independent kingdom once again. Bran Stark, now known as Bran the Broken, is elected king of the Six Kingdoms, symbolizing a new era of governance. Arya sails west of Westeros to explore unknown lands, while Jon Snow returns to the North, fulfilling his own quiet, exiled destiny.
 
-            Sansa Stark evolves from a naive noble girl into a shrewd and capable political figure.
-
-            Arya Stark becomes a skilled assassin trained by the Faceless Men in Braavos.
-
-            Bran Stark, after becoming paralyzed, discovers mystical powers and becomes the Three-Eyed Raven.
-
-            Rickon Stark, the youngest, is tragically killed during the Battle of the Bastards.
-
-            Jon Snow, raised as Ned’s illegitimate son, is revealed to be the son of Lyanna Stark and Rhaegar Targaryen. He becomes Lord Commander of the Night’s Watch and later a key leader in the fight against the White Walkers.
-
-    The Stark Legacy:
-
-            Despite immense loss and betrayal, House Stark rises again. Sansa is crowned Queen in the North, making the North an independent kingdom once more. Bran is elected King of the Six Kingdoms, symbolizing a new political order based on wisdom and neutrality. Arya sets sail west of Westeros to explore uncharted lands, while Jon Snow is exiled to the far North, returning to the roots of the realm.
-
-
-    House Stark represents:
-
-            Honor and Integrity
-
-            Survival in Harsh Conditions
-
-            The Old Ways vs. Modern Politics
-
-            Family Loyalty
-
-            The Cycle of Death and Rebirth
-            (Winter is Coming)]]></description>
+In all, House Stark represents honor, endurance, and the enduring power of family and home. Though not the most politically cunning house, their resilience, deep traditions, and connection to the people of the North make them perhaps the most beloved family in the entire Game of Thrones saga.//create a xml file like this all house with title image and this desc
+        ]]></description>
     </item>
     <item>
-        <name>House Targaryen</name>
+
+        <name>House Targaryen(HOTD)</name>
         <image>assets/images/house-targaryen.jpg</image>
-        <description>House Targaryen of Dragonstone is a noble family of Valyrian descent that once ruled the Seven Kingdoms of Westeros.</description>
+        <description><![CDATA[The Targaryens in House of the Dragon
+
+The Targaryens are the focal family in House of the Dragon, a prequel series set roughly 200 years before the events of Game of Thrones. Their story is one of power, legacy, dragons, and tragedy—a dynasty forged in fire that rises to rule the Seven Kingdoms of Westeros, only to be nearly destroyed by internal conflict.
+
+Origins and Legacy
+The Targaryens descend from the Valyrians, an ancient civilization famed for their mastery of dragons and sorcery. The Doom of Valyria—a cataclysmic volcanic event—wiped out nearly all Valyrian dragonlords. However, the Targaryens survived by relocating to Dragonstone, a volcanic island off Westeros, generations before the Doom. They preserved their dragonlord bloodline and culture, including the unique practice of marrying close relatives to keep their Valyrian traits intact, such as silver hair and violet eyes.
+
+With their dragons, the Targaryens conquered and unified Westeros under King Aegon I Targaryen, known as Aegon the Conqueror. This established the Iron Throne and the Targaryen dynasty that would rule Westeros for nearly three centuries.
+
+Culture and Traditions
+Targaryen culture is steeped in Valyrian tradition. The family practices incestuous marriages—often sibling or uncle-niece unions—to maintain the purity of their bloodline and the magical bond with their dragons. This tradition, while enhancing their dragon-riding capabilities, has a dark side: it often leads to mental instability and physical deformities among some family members, foreshadowing their eventual downfall.
+
+The dragons are the ultimate symbols of Targaryen power and identity. Each dragonrider shares a deep, almost mystical connection with their dragon, and the dragons themselves are nearly invincible forces of war. The family’s motto, “Fire and Blood,” embodies both their fiery power and their often violent rule.
+
+Key Characters in House of the Dragon
+
+- King Viserys I Targaryen:
+A well-meaning but indecisive ruler who desires to preserve peace and stability. Viserys chooses to name his eldest child, Princess Rhaenyra, as his heir—an unprecedented decision that shakes the foundation of Westerosi succession laws and stirs opposition from many nobles who expect a male heir.
+
+- Princess Rhaenyra Targaryen
+Known as the “Realm’s Delight,” Rhaenyra is a formidable woman raised to rule. She is a skilled dragonrider and politically astute, but her claim to the throne is constantly challenged because of her gender. Rhaenyra represents the progressive, but heavily contested, shift in power dynamics in Westeros.
+
+- Prince Daemon Targaryen
+Viserys’s younger brother, a charismatic and dangerous figure. Daemon is an exceptional warrior and dragonrider with complex motivations. His ambition and unpredictable nature make him both a key ally and a potential threat to Rhaenyra’s claim.
+
+- Aegon II Targaryen
+Viserys’s son by his second wife, Alicent Hightower. Aegon II is backed by powerful court factions who reject Rhaenyra’s succession. His claim divides the kingdom and sparks the brutal Dance of the Dragons.
+
+- Alicent Hightower
+Daughter of Otto Hightower, the Hand of the King, and second wife to Viserys. Alicent is politically savvy, fiercely protective of her children, and a key figure in the faction that opposes Rhaenyra.
+
+The Dance of the Dragons
+The Targaryens’ internal strife culminates in the Dance of the Dragons, a bloody civil war between two rival factions—the Blacks, led by Rhaenyra, and the Greens, led by Aegon II. This war is notable for its unprecedented use of dragons in battle, turning Westeros into a war-torn land where dragonfire rains destruction.
+
+The conflict is not merely a political struggle but a deeply personal family feud fueled by ambition, jealousy, love, and betrayal. The series delves into how these family dynamics and the power struggles tear the Targaryens apart, weakening their dynasty and altering the course of Westerosi history.
+
+Themes and Significance
+The Targaryens in House of the Dragon embody the dual nature of power—capable of creating great empires but also sowing seeds of destruction. Their story explores themes such as:
+
+- Legacy and Succession: The difficulties of passing power in a patriarchal society and how breaking tradition can lead to chaos.
+
+- Family and Betrayal: The Targaryen family is as much their own enemy as their external foes, with love and loyalty constantly tested by ambition.
+
+- Power and Madness: The “Targaryen madness” caused by inbreeding and the corrupting nature of absolute power.
+
+- Fire and Blood: Their motto represents both their strength and the violence inherent in their rule.
+        ]]></description>
     </item>
-    <item>
+<item>
         <name>House Lannister</name>
         <image>assets/images/house-lennister.jpg</image>
         <description>House Lannister of Casterly Rock is one of the richest and most powerful families in Westeros, known for their motto "Hear Me Roar!"</description>

@@ -41,6 +41,8 @@ dependencies:
   get: ^4.7.2
   xml: ^6.5.0
   lottie: ^3.3.1
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
   flutter_test:
@@ -53,10 +55,23 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
+flutter_native_splash: # 👈 Top-level key (same level as dependencies
+  color: "#0D0D0D"
+  image: assets/images/stark.jpg
+  android: true
+  ios: false
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/stark.jpg"
+
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -70,6 +85,8 @@ flutter:
     - assets/icons/profile.svg
     - assets/images/house-stark.jpg
     - assets/data/houses.xml
+    - assets/images/stark.jpg
+    - assets/images/GOT.png
     - assets/images/house-targaryen.jpg
     - assets/images/house-lennister.jpg
     - assets/images/
@@ -92,11 +109,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Sora
+    - family: GameOfThrones
       fonts:
-        - asset: fonts/Sora-Bold.ttf
-        - asset: fonts/Sora-Medium.ttf
-          
+        - asset: fonts/GameofThrones.ttf
+
+
+    - family: ImSc
+      fonts:
+        - asset: fonts/IMSC-Regular.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

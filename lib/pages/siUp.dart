@@ -52,6 +52,15 @@ class _siUpState extends State<siUp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        leading: IconButton(
+          icon : Icon(Icons.arrow_back,color: AppColors.royal_gold,size: 25,),
+          onPressed: () {
+            navigator?.pop(context);
+          },
+        ),
+      ),
       backgroundColor: AppColors.deep_black,
       body:
       Center(
@@ -65,11 +74,11 @@ class _siUpState extends State<siUp> {
                   height: 200
               ),
               SizedBox(height: 20,),
-              Text("Join The Game ",style:
+              Text("Join  The  Game ",style:
               TextStyle(
-                  fontSize: 35,
+                  fontSize: 28,
+                  fontFamily: 'GameOfThrones',
                   color: AppColors.royal_gold,
-                  fontWeight: FontWeight.bold
               ),
               ),
               SizedBox(
@@ -140,31 +149,51 @@ class _siUpState extends State<siUp> {
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: MaterialButton(
-                  minWidth: 300,
-                  height: 45,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                  onPressed: (() =>signup()),
-                  child: Text('Join the Realm'),
-                  color: AppColors.royal_gold,
-                  textColor: Colors.black,),
+                child: OutlinedButton(onPressed: (() => signup()),
+                    style:
+                    OutlinedButton.styleFrom(
+                      side: BorderSide(
+                        color: AppColors.royal_gold,
+                        width: 4.0,
+                      ),
+                      backgroundColor: AppColors.royal_gold,
+                      foregroundColor: AppColors.deep_black,
+                      textStyle: TextStyle(
+                        fontFamily: 'GameOfThrones',
+                        fontSize: 15
+                      ),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12)
+                      )
+                    ),
+                    child: Text("Join The Realm"))
               ),
-          
-              Text("Already pledged ?",style: TextStyle(color: AppColors.royal_gold)),
+          SizedBox(height: 15,),
+              Text("Already pledged ?",style: TextStyle(color: AppColors.royal_gold,fontFamily: 'GameOfThrones',fontSize: 14)),
               Padding(
                 padding: const EdgeInsets.all(2.0),
-                child: MaterialButton(
-                  minWidth: 50,
-                  height: 40,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                  onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => login() ));
+                child: OutlinedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => login()));
                   },
-                  child: Text('Enter the gates'),
-                  color: Colors.transparent,
-                  elevation: 0.0,
-                  textColor: AppColors.textSecondary,),
+                  style: OutlinedButton.styleFrom(
+                    textStyle: TextStyle(fontFamily: 'GameOfThrones',fontSize: 12),
+                    minimumSize: const Size(50, 40),
+                    backgroundColor: Colors.transparent, // transparent background
+                    side: BorderSide(
+                      color: Colors.transparent, // outline color
+                      width: 1.5,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    foregroundColor: AppColors.textSecondary, // text color
+                    elevation: 0,
+                  ),
+                  child: const Text('Enter the gates'),
+                ),
               ),
+
             ],
           ),
         ),
