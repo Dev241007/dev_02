@@ -2,7 +2,9 @@
     <item>
         <name>House Stark</name>
         <image>assets/images/house-stark.jpg</image>
-        <description><![CDATA[
+        <description><![CDATA[Winter Is Coming
+
+
 House Stark of Winterfell
 
 House Stark is one of the oldest and most revered noble families in Westeros. As the principal house of the North, they have ruled the vast, cold, and rugged northern region for thousands of years, first as Kings in the North and later as Wardens of the North after the Targaryen conquest. Their ancestral seat is Winterfell, a massive castle located in the center of the North, and their house words, "Winter is Coming", serve not only as a warning of harsh winters, but also as a philosophical reminder of mortality, vigilance, and the inevitability of dark times.
@@ -26,7 +28,7 @@ In all, House Stark represents honor, endurance, and the enduring power of famil
 
         <name>House Targaryen(HOTD)</name>
         <image>assets/images/house-targaryen.jpg</image>
-        <description><![CDATA[The Targaryens in House of the Dragon
+        <description><![CDATA[The Targaryens in House of the Dragon - Fire and Blood
 
 The Targaryens are the focal family in House of the Dragon, a prequel series set roughly 200 years before the events of Game of Thrones. Their story is one of power, legacy, dragons, and tragedy—a dynasty forged in fire that rises to rule the Seven Kingdoms of Westeros, only to be nearly destroyed by internal conflict.
 
@@ -74,74 +76,580 @@ The Targaryens in House of the Dragon embody the dual nature of power—capable 
 - Fire and Blood: Their motto represents both their strength and the violence inherent in their rule.
         ]]></description>
     </item>
-<item>
+    <item>
         <name>House Lannister</name>
         <image>assets/images/house-lennister.jpg</image>
-        <description>House Lannister of Casterly Rock is one of the richest and most powerful families in Westeros, known for their motto "Hear Me Roar!"</description>
+        <description><![CDATA[Hear Me Roar
+
+House Lannister of Casterly Rock is one of tshe Great Houses of Seven Kingdoms, and the principal house of the westerlands. Their seat is Casterly Rock, though another branch exists in nearby Lannisport. Their sigil is a golden roaring lion on a field of crimson. Their official motto is "Hear Me Roar!" However, their unofficial motto, equally well known, is "A Lannister always pays his debts." The Warden of the West is a Lannister by tradition. Their gold mines have made the Lannisters the wealthiest of the Great Houses and the Lannister fleet is anchored at Lannisport.
+
+The current Lord of Casterly Rock is Tywin Lannister, whose daughter Cersei is the queen of King Robert I Baratheon, while her twin, Ser Jaime, is a knight of Robert's Kingsguard. Tywin's youngest child is Tyrion, a dwarf.
+
+House Lannister of Casterly Rock
+House Lannister is one of the most powerful and richest noble families in the Seven Kingdoms of Westeros. Their seat is Casterly Rock, a massive castle built into a golden cliff overlooking the Sunset Sea in the Westerlands. The Lannisters' words are "Hear Me Roar!", although their more commonly known saying is "A Lannister always pays his debts." Their sigil is a golden lion on a crimson background, symbolizing pride, strength, and wealth.
+
+Ancient History
+House Lannister claims descent from Lann the Clever, a legendary trickster who is said to have outsmarted the Casterlys, the original rulers of Casterly Rock, and took the castle for himself. From Lann’s descendants came the noble Lannisters, who ruled the Westerlands for thousands of years as Kings of the Rock before bending the knee to House Targaryen during Aegon the Conqueror’s invasion.
+
+The Lannisters became Lords Paramount of the Westerlands and continued to control the region, mainly due to their enormous wealth, which came from the rich gold mines beneath Casterly Rock.
+
+Rise to Power in the Main Series
+During the events of Game of Thrones, the head of the house is Lord Tywin Lannister, a cold, calculating, and extremely powerful man known for his ruthlessness and political skill. He served as Hand of the King to King Aerys II Targaryen (the Mad King) and later to King Robert Baratheon.
+
+Tywin had three children: Jaime, a skilled knight of the Kingsguard; Cersei, who became queen by marrying King Robert; and Tyrion, a clever dwarf often mocked and hated by his father. Despite being the youngest and physically different, Tyrion was the most intelligent and resourceful of the three.
+
+When Robert dies and Joffrey Baratheon, Cersei’s son, takes the throne, the Lannisters effectively control the Iron Throne. However, it is revealed that Joffrey, Tommen, and Myrcella are not Robert's children, but products of Cersei and Jaime’s incest. This truth leads to political chaos and war across Westeros.
+
+Tywin masterminds alliances (such as the marriage with House Tyrell) and uses force and gold to keep his family in power. However, his downfall begins when he underestimates Tyrion, who eventually kills him after years of abuse. Jaime later abandons his family’s cruel politics, and Cersei becomes queen regnant of Westeros after the deaths of her children.
+
+House Lannister’s Fall
+Cersei Lannister rules with fear and cruelty. She destroys the Great Sept of Baelor, killing many of her enemies, but also causing the suicide of her last child, King Tommen. Her ruthless actions isolate her from allies and set her up for conflict with Daenerys Targaryen, who arrives in Westeros with dragons and an army.
+
+Although the Lannisters initially win battles against Daenerys, they eventually lose their gold mines and armies. Jaime, tired of Cersei’s lies and cruelty, leaves her. During the Battle of King's Landing, Daenerys attacks with her dragon and burns the city. Jaime returns to try to save Cersei, but the Red Keep collapses, and both die together, ending Tywin’s legacy and House Lannister’s rule.]]></description>
     </item>
     <item>
         <name>House Baratheon</name>
         <image>assets/images/house-baratheon.jpg</image>
-        <description>House Baratheon is a noble house of Storm's End and was founded by Orys Baratheon, a general of Aegon the Conqueror.</description>
+        <description><![CDATA[Ours Is the Fury
+
+   House Baratheon of Storm's End is one of the Great Houses of Westeros, and is the principal house in the stormlands, which they rule as Lords Paramount of the Stormlands. Their seat, Storm's End, is an ancient castle raised by the Storm Kings from the now-extinct House Durrandon. The Baratheon sigil is a crowned black stag on a field of gold. Their words are "Ours is the Fury".
+
+After Robert's Rebellion, House Baratheon split into three branches: Lord Robert Baratheon was crowned king and took residence at King's Landing, thereby creating House Baratheon of King's Landing. Robert gave the seat of Dragonstone to his younger brother, Stannis, creating House Baratheon of Dragonstone. Robert's youngest brother, Renly, became the Lord of Storm's End, continuing House Baratheon of Storm's End.
+
+Robert's Rebellion
+Steffon's eldest son, Robert, inherited Storm's End upon Steffon's death, and in the years that followed, was betrothed to Lyanna Stark of Winterfell.Ser Barristan Selmy defeated Lord Robert in a tourney at Storm's End, winning the joust in the end.In 282 AC, Prince Rhaegar Targaryen, Robert's cousin, disappeared with Lyanna Stark, causing Lyanna's eldest brother Brandon to ride to King's Landing in anger. He was arrested, and killed together with his father, Lord Rickard Stark, on the command of King Aerys II. The king then demanded the heads of both Lord Robert, as well as Eddard Stark, from Lord Jon Arryn, as both men were in the Vale. Jon refused and raised his banners, marking the start of the war that would become known as Robert's Rebellion. Robert became a figure-head, and he personally killed Prince Rhaegar Targaryen during the Battle of the Trident in 283 AC. In the early parts of the war, the battles at Summerhall and the siege of Storm's End were fixtures of the stormlands theater.
+
+Baratheon Dynasty
+Lord Robert was crowned King Robert I. House Baratheon was split into three branches: House Baratheon of King's Landing, under King Robert I, House Baratheon of Dragonstone, headed by Lord Stannis Baratheon, and House Baratheon of Storm's End, headed by Lord Renly Baratheon, Robert's youngest brother. During Greyjoy's Rebellion in 289 AC, the combined Baratheon fleet defeated the Iron Fleet in a sea battle off Fair Isle, commanded by Stannis, the master of ships. Stannis later subdued Great Wyk in his brother's name. Some time after he achieved manhood, Renly Baratheon was appointed to Robert's small council as master of laws.
+
+A Game of Thrones
+Lord Jon Arryn, the Hand of the King, dies suddenly in King's Landing. King Robert I Baratheon and his retinue travel to Winterfell to offer the position to Lord Eddard Stark, Robert's friend from his youth. Lord Renly Baratheon rides north to meet King Robert on his return trip after Eddard accepts the position, while Lord Stannis Baratheon returns to his seat at Dragonstone. Renly participates in the Hand's tourney, riding well before losing to Sandor Clegane.
+
+Later, as Robert lies dying from a kingswood boar's tusk, Renly asks Eddard to support him in a bid for the throne. Lord Stark has discovered that Queen Cersei's children, Joffrey, Myrcella, and Tommen Baratheon, are not Robert's legitimate children, but they are instead bastards born of incest with Cersei's brother, Ser Jaime Lannister. Eddard insists that it is Lord Stannis who should be Robert's successor as king. After Eddard refuses to support Renly's bid for power, Renly, his thirty men-at-arms, and his former squire Ser Loras Tyrell ride south out of the capital. King Joffrey I names Lord Renly and Ser Loras among the nobles who must do him homage or be declared traitors, and soon thereafter has Eddard executed for treason
+
+A Clash of Kings
+Despite Stannis's better claim to the Iron Throne, Renly is able to rally the stormlands to his cause, as well as House Tyrell and much of the Reach. Stannis has a significantly smaller force drawn mostly from the crownlands and the royal fleet. When Renly is assassinated beneath the walls of Storm's End as the brothers' hosts prepare to clash during the War of the Five Kings, he leaves no heirs. Most of the houses sworn to Storm's End, as well as some from the Reach, join Stannis, who unsuccessfully attacks King's Landing in the Battle of the Blackwater. Following their defeat, most houses sworn to Stannis kneel to King Joffrey and the Iron Throne.
+
+A Storm of Swords<![CDATA[                              We Do Not Sow
+Stannis's garrison at Storm's End commanded by Ser Gilbert Farring remains loyal to his cause.Edric Storm is smuggled out of Dragonstone by Lord Davos Seaworth to prevent him from being burned alive by Stannis's advisor, Melisandre.
+
+Renly's widow, Margaery Tyrell, marries King Joffrey Baratheon. After Joffrey's death, the current head of the house is the young king Tommen I Baratheon - a title disputed by King Stannis.Aside from a few garrisons, Stannis leads his remaining forces north to the Wall and saves the Night's Watch from wildlings in the battle beneath the Wall.
+
+A Feast for Crows
+Queen Cersei Lannister serves as regent for her son, King Tommen I. She sends Lord Mace Tyrell to take Storm's End from Stannis's garrison, although when Mace hears his daughter Margaery has been arrested he returns to the capital with most of his army, leaving Lord Mathis Rowan to continue the siege with a token force. Cersei is replaced as Tommen's regent by Ser Kevan Lannister after she is also arrested by the Faith of the Seven. Ser Loras Tyrell is said to have taken Dragonstone from Stannis's garrison in a bloody assault.
+
+A Dance with Dragons
+After leaving Castle Black, Stannis remains in the north, liberates Deepwood Motte, and marches on Winterfell.His wife, Queen Selyse Florent, and heir, Princess Shireen Baratheon, travel to Castle Black from Eastwatch-by-the-Sea.
+
+The garrison at Storm's End is Stannis's last force in the south, but it is threatened by Mathis Rowan as well as Aegon Targaryen and the Golden Company.
+
+The regent of King Tommen I Baratheon, Ser Kevan Lannister, is murdered in King's Landing by Varys.
+]]></description>
     </item>
     <item>
         <name>House Greyjoy</name>
         <image>assets/images/house-greyjoy.jpg</image>
-        <description>House Greyjoy of Pyke rules over the Iron Islands. Their motto is "We Do Not Sow."</description>
+        <description><![CDATA[We Do Not Sow
+
+House Greyjoy of Pyke
+House Greyjoy is one of the Great Houses of Westeros and rules over the Iron Islands, a harsh and stormy group of isles in the western seas. Their ancestral seat is the castle of Pyke, located on a rocky cliff over the sea. Their sigil is a golden kraken (a giant sea creature) on a black field, and their famous words are: “We Do Not Sow.”
+
+This motto reflects the Ironborn lifestyle—they do not farm or trade, but take what they want through raids and war. The Ironborn are fierce sailors, warriors, and reavers who live by the Old Way, a tradition of raiding coastal villages, capturing goods, and taking “salt wives.”
+
+Early History
+House Greyjoy traces its descent from the Grey King, a legendary figure in Ironborn lore who supposedly ruled the sea and fought sea dragons. For centuries, the Ironborn were ruled by kings, and the Greyjoys were one of many powerful houses. After the Targaryens conquered Westeros, the Iron Islands were brought under the Iron Throne and given to House Greyjoy during the rule of King Robert Baratheon.
+
+The Greyjoys became Lords Paramount of the Iron Islands, but their people never gave up their fierce independence. Balon Greyjoy, the head of the house during Game of Thrones, tried to restore the Old Way and declared himself King of the Iron Islands.
+
+Greyjoy Rebellion and Family
+Nine years before the events of Game of Thrones, Balon Greyjoy led a failed rebellion against the Iron Throne. His eldest sons Rodrik and Maron died in battle, and his youngest son, Theon, was taken as a hostage by Eddard Stark to keep the Greyjoys in check. Theon grew up in Winterfell as a ward of House Stark.
+
+Balon remained bitter and proud. When Robb Stark declared the North independent, Theon returned to the Iron Islands hoping to win his father’s approval. However, Balon used the opportunity to attack the North instead of helping Robb. Theon betrayed the Starks and captured Winterfell, but his actions led to tragedy. He was taken by Ramsay Bolton, who tortured and broke him, turning him into "Reek."
+
+House Greyjoy's Role in the War
+After Balon’s death (killed by his brother Euron Greyjoy), the Ironborn held a traditional Kingsmoot, where Euron was chosen as king. Euron was ruthless, clever, and dangerous. He wanted to conquer Westeros and marry Daenerys Targaryen, using a massive fleet built from stolen and salvaged ships.
+
+Balon’s daughter, Yara Greyjoy, and Theon refused to support Euron. They stole part of the fleet and allied with Daenerys instead. Euron later defeated their ships, captured Yara, and declared war on everyone. He joined Cersei Lannister and helped her defend King’s Landing.
+
+The Fall of House Greyjoy
+Theon's character changed over time—after escaping Ramsay and regaining his strength, he chose to fight for family and honor. He rescued Yara and supported Daenerys’s campaign. During the Battle of Winterfell, Theon bravely defended Bran Stark and died facing the Night King, earning redemption in the eyes of the Starks.
+
+Eventually, Euron Greyjoy was killed by Jaime Lannister during the battle for King's Landing. With Euron dead and much of the fleet destroyed, House Greyjoy’s ambitions ended.
+
+]]>
+        </description>
     </item>
     <item>
         <name>House Arryn</name>
         <image>assets/images/house-arryn.jpg</image>
-        <description>House Arryn is one of the oldest noble families in Westeros, ruling the Vale of Arryn from the Eyrie.</description>
+        <description><![CDATA[As High as Honor
+
+House Arryn of the Eyrie
+House Arryn is one of the oldest and most noble houses in Westeros. They rule over the Vale of Arryn, a lush, mountainous region in the east of the continent. Their seat is the Eyrie, a beautiful but nearly unreachable castle high in the Mountains of the Moon. The Arryn sigil is a white falcon and crescent moon on a blue field, and their proud house words are: “As High as Honor.”
+
+Ancient and Noble Lineage
+House Arryn’s lineage is among the purest of the Andals, who came to Westeros thousands of years ago from Essos. The Arryns were once Kings of Mountain and Vale before bending the knee to Aegon the Conqueror. During Aegon’s conquest, King Ronnel Arryn submitted peacefully to Aegon after being taken for a ride on Balerion, the Black Dread.
+
+Because of this, House Arryn was allowed to remain rulers of the Vale, becoming Lords Paramount of the Vale and Wardens of the East. They are deeply respected, considered honorable and noble, and often compared to the Starks in terms of loyalty and integrity.
+
+Role Before and During Game of Thrones
+At the start of Game of Thrones, Lord Jon Arryn is the head of House Arryn and serves as Hand of the King to Robert Baratheon. He was like a second father to Robert and Eddard Stark, raising both at the Eyrie during their youth. However, Jon mysteriously dies, which becomes the first major mystery of the series.
+
+After Jon's death, his widow Lysa Arryn retreats to the Eyrie with their young son Robin (Robert) Arryn, refusing to get involved in the politics of King’s Landing. Lysa is paranoid and overly protective of Robin, who is sickly and spoiled. She rules the Vale from above, shutting out the rest of the kingdom.
+
+Lysa later reveals that she poisoned Jon at the urging of Petyr Baelish (Littlefinger), whom she loved. When Sansa Stark escapes to the Vale, Petyr manipulates Lysa into marrying him. However, he eventually kills Lysa by pushing her through the Moon Door and claims to be the protector of Robin Arryn, taking control of the Vale through political cunning.
+
+The Vale in the Wars
+While the Vale remains mostly isolated during the War of the Five Kings, it plays an important role later. Petyr Baelish uses his influence over Robin to gain support and control. Later, the knights of the Vale, led by Lord Yohn Royce, arrive at the Battle of the Bastards to help Jon Snow defeat Ramsay Bolton and retake Winterfell.
+
+Ending and Legacy
+In the final seasons, Robin Arryn begins to grow into a more stable young lord under the guidance of his noble bannermen like House Royce. After the war against the White Walkers and the fall of King’s Landing, the major lords and ladies gather to decide the future of Westeros.
+
+Robin Arryn is present at the council that chooses Bran Stark as King of the Six Kingdoms. Although the Vale is not as powerful as the Lannisters or Targaryens, House Arryn survives with honor intact, and Robin continues as the Lord of the Vale under the new peaceful order.
+]]>
+        </description>
     </item>
     <item>
         <name>House Martell</name>
         <image>assets/images/house-martell.jpg</image>
-        <description>House Martell of Sunspear rules over Dorne. Their words are "Unbowed, Unbent, Unbroken."</description>
+        <description><![CDATA[Unbowed, Unbent, Unbroken
+
+House Martell of Sunspear
+House Martell rules over the hot and exotic land of Dorne, in the southernmost region of Westeros. Their seat is Sunspear, a unique palace-city built of towers, domes, and winding halls. Their house sigil is a red sun pierced by a gold spear on an orange field, and their proud words are: “Unbowed, Unbent, Unbroken.” These words reflect the fierce independence and resilience of the Dornish people.
+
+Ancient Origins
+House Martell is of Rhoynar and Andal descent, making them culturally and ethnically different from the other Great Houses of Westeros. Centuries ago, a Rhoynar warrior-queen named Nymeria sailed across the sea with ten thousand ships, fleeing war in Essos. She landed in Dorne and married Lord Mors Martell, uniting the land under their rule. Together, they created House Nymeros Martell, blending Rhoynar and Dornish traditions.
+
+Because of this heritage, Dorne became a land where women could inherit titles, unlike most of Westeros. This also explains why the Martells use the title “Prince” or “Princess” instead of “Lord” or “Lady.”
+
+Dorne and the Targaryens
+Dorne was the only kingdom that Aegon the Conqueror failed to conquer by force. While the rest of Westeros fell to dragonfire, Dorne resisted fiercely through guerrilla warfare and diplomacy. It was only joined to the Seven Kingdoms later through marriage, not war. This earned Dorne and House Martell a reputation for being proud, independent, and hard to tame.
+
+House Martell in Game of Thrones
+At the start of Game of Thrones, the head of the house is Prince Doran Martell, a wise and patient ruler who prefers peace over war. His younger brother, Oberyn Martell, is the opposite—hot-headed, passionate, and a deadly warrior. Oberyn comes to King’s Landing to seek justice for Elia Martell, their sister, who was murdered during Robert’s Rebellion by Ser Gregor Clegane, the Mountain, under House Lannister's orders.
+
+Oberyn joins the trial by combat for Tyrion Lannister and fights the Mountain. Though he nearly wins, he is killed in a brutal and shocking moment. His death sparks anger across Dorne.
+
+Oberyn’s lover, Ellaria Sand, and his daughters—the Sand Snakes—seek revenge. They believe Doran is too weak and kill him to seize power. They then murder Princess Myrcella Baratheon, Cersei’s daughter, and ally with Daenerys Targaryen.
+
+Downfall and the End
+Ellaria and the Sand Snakes join Daenerys’s war against the Lannisters. However, they are ambushed at sea by Euron Greyjoy, who captures Ellaria and her daughter Tyene. Euron brings them to Cersei, who locks them in a dungeon. Cersei poisons Tyene and forces Ellaria to watch her daughter die—a cruel revenge for Myrcella’s death.
+
+With Doran dead and Ellaria imprisoned, House Martell collapses as a political power. Dorne is left without strong leadership during the final battles for the throne.
+
+In the final season, after the wars have ended, a new Prince of Dorne is chosen (his name is never mentioned in the show), and he attends the council at King's Landing where Bran Stark is elected king. This suggests that while House Martell may no longer rule, Dorne survives and remains part of the Six Kingdoms.
+
+]]>
+        </description>
     </item>
     <item>
         <name>House Tully</name>
         <image>assets/images/house-tully.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[Family, Duty, Honor
+
+House Tully of Riverrun
+House Tully is the noble family that rules over the Riverlands, a fertile and central region of Westeros. Their seat is Riverrun, a strong castle located at the meeting of the Red Fork and Tumblestone rivers. The Tully sigil is a silver trout leaping on a blue and red striped field, and their house words are: “Family, Duty, Honor.”
+
+These words show what the Tullys value most—their loyalty to family, their responsibilities, and their personal honor. They are known as a noble and kind-hearted house, respected throughout the Seven Kingdoms.
+
+Early History and Importance
+House Tully rose to power during the Targaryen Conquest. When Aegon the Conqueror came to Westeros with his dragons, many Riverlords fought against him. But Lord Edmyn Tully was the first to support Aegon, and as a reward, Aegon made House Tully the Lords Paramount of the Trident—placing them in charge of the Riverlands.
+
+Because of their location in the center of Westeros, the Riverlands often become the battleground during wars. Despite this, House Tully stayed strong for centuries, forming powerful alliances through marriage, especially with House Stark and House Arryn.
+
+House Tully in Game of Thrones
+At the beginning of Game of Thrones, the head of the house is Lord Hoster Tully. He is old and sick, and his daughter, Catelyn Tully, is married to Eddard Stark of Winterfell. His younger daughter, Lysa Tully, is married to Jon Arryn, the Hand of the King. His son and heir is Edmure Tully, a proud but sometimes foolish man.
+
+When Catelyn captures Tyrion Lannister (believing he tried to kill her son Bran), the Riverlands are drawn into the coming war. After Eddard Stark is executed, Catelyn’s son Robb Stark is declared King in the North, and House Tully fights alongside him.
+
+The War of the Five Kings
+During the war, the Riverlands suffer greatly. The Lannisters attack the region brutally, with Ser Gregor Clegane (the Mountain) burning villages. Robb Stark’s army wins key victories with the help of the Tullys, including the Battle of the Whispering Wood, where Jaime Lannister is captured.
+
+However, things go wrong when Robb breaks his marriage promise to House Frey. In revenge, the Freys and Lannisters kill Robb, Catelyn, and many Tully soldiers in the Red Wedding. Edmure Tully is taken hostage, and House Frey takes Riverrun.
+
+Later Events and the End
+Years later, Edmure is forced to marry Roslin Frey at the Red Wedding. Though he is kept prisoner, he survives. During the war between the Lannisters and Targaryens, Brynden “Blackfish” Tully, Catelyn’s uncle and a legendary warrior, retakes Riverrun from the Freys.
+
+However, Jaime Lannister arrives with a Lannister army and besieges Riverrun. Edmure, still a prisoner, is used to convince the garrison to surrender. Blackfish refuses to flee and dies fighting. House Tully loses control of Riverrun again.
+
+In the final season, Edmure appears at the Great Council in King's Landing. He awkwardly tries to nominate himself as king, but is quickly dismissed by Sansa Stark. Though laughed at, this shows Edmure is still alive, and House Tully survives, even if weakened.
+]]>
+        </description>
     </item>
     <item>
         <name>House Tyrell</name>
         <image>assets/images/house-tyrell.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[Growing Strong
+
+House Tyrell of Highgarden
+House Tyrell was one of the Great Houses of Westeros. They ruled over the Reach, a fertile and wealthy region in the southwest of the continent. Their seat was Highgarden, a grand and beautiful castle known for its gardens, music, and luxury. The Tyrell sigil is a golden rose on a green field, and their house words are: “Growing Strong.”
+
+These words reflect their belief in steady growth, patience, and prosperity—a house that became powerful through alliances, diplomacy, and clever marriages rather than war.
+
+Early History and Rise to Power
+The Tyrells began as stewards to House Gardener, the ancient kings of the Reach. When the last Gardener king died in the Field of Fire—burned by Aegon the Conqueror’s dragons—Harlan Tyrell, the steward of Highgarden, surrendered the castle to Aegon without a fight.
+
+As a reward, Aegon made House Tyrell the Lords of the Reach and Wardens of the South. Some older houses resented this rise, but over the centuries, the Tyrells built loyalty and power. They ruled wisely and became known for their vast wealth, agriculture, and large armies.
+
+House Tyrell in Game of Thrones
+At the beginning of Game of Thrones, the head of the house is Lord Mace Tyrell, but the true power lies with his mother, the clever and sharp-tongued Lady Olenna Tyrell, also called the Queen of Thorns. The Tyrells join the Lannisters during the War of the Five Kings, supporting King Renly Baratheon at first. After Renly's death, they switch sides to King Joffrey Baratheon and arrange for Margaery Tyrell, Mace’s daughter, to marry him.
+
+This alliance brings the Tyrells into the royal family. Margaery first marries Joffrey, then after his death, she marries Tommen Baratheon, Joffrey's younger brother. Margaery becomes Queen of the Seven Kingdoms, and House Tyrell reaches the height of its power.
+
+Downfall and Tragedy
+Their success is short-lived. The rise of the Faith Militant and the religious zealot High Sparrow brings trouble to the Tyrells. Margaery and her brother Loras Tyrell are imprisoned for immoral behavior. Though Margaery appears to convert to the Faith to save her family, Cersei Lannister has other plans.
+
+In one of the most shocking moments of the series, Cersei blows up the Great Sept of Baelor using wildfire. Margaery, Loras, Mace, and many others die in the explosion, wiping out nearly the entire Tyrell family.
+
+With the main bloodline gone, House Tyrell is left leaderless and vulnerable. During Daenerys Targaryen’s invasion, Olenna joins her against the Lannisters. However, Jaime Lannister attacks Highgarden with a large army and captures it.
+
+In a final meeting between Jaime and Olenna, she accepts her fate but admits to poisoning Joffrey at his wedding, revealing that the Tyrells had struck a hidden blow at their enemies. Jaime gives her a painless poison, and she dies peacefully—but triumphantly.
+]]>
+        </description>
     </item>
     <item>
         <name>House Hightower</name>
         <image>assets/images/house-hightower.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[We Light The Way
+
+House Hightower of Oldtown
+House Hightower is one of the oldest and most respected noble houses in Westeros. They rule from Oldtown, one of the largest and richest cities in the Seven Kingdoms. Oldtown is located in the Reach, near the southern coast, and is famous for being the center of learning, trade, and religion. The Hightower sigil is a white tower with a flame on top, on a grey field, and their house words are unknown, but they often use the phrase "We Light the Way."
+
+️Ancient Origins and Early History
+The Hightowers trace their ancestry back thousands of years, possibly to the Dawn Age, before the First Men arrived in Westeros. Legends say they descend from the wise and magical race called the "beacons of the sea" or possibly from a tall, seafaring people. Unlike many other ancient houses, the Hightowers did not vanish—they adapted.
+
+Their castle, the Hightower, is a massive white tower built on Battle Isle at the mouth of the Honeywine River. Some say the base of the Hightower was built with Valyrian knowledge or magic, long before dragons came to Westeros.
+
+When the Andals invaded Westeros, the Hightowers married into Andal blood and converted to the Faith of the Seven early. They became devout followers of the Faith, supporting the High Septon and the building of the Great Sept in Oldtown.
+
+Role in Westeros
+Oldtown is home to the Citadel, where maesters are trained, and to the Starry Sept, the original center of the Faith before the Sept of Baelor in King’s Landing was built. The Hightowers have long supported education, healing, and knowledge, helping Westeros develop science and medicine.
+
+Though powerful, the Hightowers often stay neutral in major wars, choosing diplomacy over battle. They are wealthy, well-educated, and culturally sophisticated, preferring strategy and survival over risking everything in war.
+
+House Hightower in House of the Dragon
+In House of the Dragon, House Hightower plays a major role. Otto Hightower, a proud and intelligent man, serves as Hand of the King to Viserys I Targaryen. His daughter, Alicent Hightower, marries King Viserys and becomes queen, giving birth to Aegon II Targaryen.
+
+When King Viserys dies, Otto and Alicent support their son Aegon in taking the throne—even though Viserys named his daughter Rhaenyra Targaryen as his heir. This causes the Targaryen civil war known as the Dance of the Dragons.
+
+House Hightower supports the Greens (Aegon’s faction), while Rhaenyra’s supporters are called the Blacks. The war destroys many dragons and leads to huge losses on both sides. Eventually, Aegon II wins, but at great cost.
+
+This event brings glory and tragedy to House Hightower. They become key players in royal politics, but also lose many men and influence.
+
+Later History and Fate
+After the Dance, House Hightower returns to a more quiet and neutral role. By the time of Game of Thrones, House Hightower still rules Oldtown, but they are not involved directly in major events.
+
+The current Lord, Leyton Hightower, stays in his tower during the entire war. He is said to be reading ancient books and practicing strange arts, and his daughter, Malora, is called “the Mad Maid.” The Hightowers don’t take sides in the War of the Five Kings, which helps them survive when other houses fall.
+
+Though they are not seen on-screen in Game of Thrones, they are still powerful, rich, and respected. Oldtown remains a key city, and the Hightowers are its guardians.
+
+Legacy and Traits
+House Hightower is known for:
+
+Ancient blood and deep history
+
+Great wealth and culture
+
+Wisdom, diplomacy, and survival
+
+Religious and scholarly support
+
+A key role in the Dance of the Dragons
+]]>
+        </description>
     </item>
     <item>
         <name>House Velaryon</name>
         <image>assets/images/house-velaryon.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[The Old, the True, the Brave
+
+🐚 House Velaryon of Driftmark
+House Velaryon is one of the oldest and most powerful noble houses in Westeros, especially during the Targaryen era. Their seat is Driftmark, an island in Blackwater Bay, not far from Dragonstone. Their house sigil is a silver seahorse on a sea-green field, and their words are not officially known, but they often associate themselves with the sea, loyalty, and Valyrian pride.
+
+🐉 Valyrian Origins and Early Power
+House Velaryon, like House Targaryen, is of Valyrian descent. They came to Westeros before the Doom of Valyria, and settled on Driftmark, centuries before Aegon's Conquest. Though they were not dragonlords like the Targaryens, the Velaryons were great seafarers, shipbuilders, and explorers. Their wealth came from controlling shipping lanes and trade between Westeros and Essos.
+
+Because of their Valyrian blood and close relationship with the Targaryens, House Velaryon rose in importance after Aegon the Conqueror established the Targaryen dynasty. They often married into the Targaryen family and served them as admirals, lords, and royal advisors.
+
+🌊 Lord Corlys "The Sea Snake"
+The most famous member of the house is Lord Corlys Velaryon, also known as “The Sea Snake.” He lived during the reign of King Viserys I Targaryen in House of the Dragon.
+
+Corlys was a legendary sailor who made nine great voyages across the known world, even reaching Yi Ti and Leng in the east. He brought back great riches, turning House Velaryon into the richest house in Westeros—richer even than the Lannisters for a time.
+
+He married Princess Rhaenys Targaryen, the “Queen Who Never Was,” strengthening the Velaryons' connection to the Targaryens. Their children included Laena and Laenor Velaryon.
+
+⚔️ The Dance of the Dragons
+House Velaryon played a key role in the Targaryen civil war, known as the Dance of the Dragons. Lord Corlys supported Princess Rhaenyra Targaryen as the rightful heir to the Iron Throne. His son Laenor married Rhaenyra, and their supposed sons—Jacaerys, Lucerys, and Joffrey Velaryon—were heirs to both House Targaryen and Velaryon (although their true father was Harwin Strong).
+
+During the Dance, the Velaryons controlled the largest navy in Westeros. Corlys became Lord Admiral and gave the Black faction control of the seas. His granddaughter Baela and step-granddaughter Rhaena Targaryen also played roles during the war.
+
+However, the family suffered great losses. Both Lucerys and Joffrey Velaryon died. The war weakened the house’s power, even though Corlys survived and was forgiven after the Blacks lost.
+
+🪦 After the Dance & House's Fate
+After the war, House Velaryon’s power declined, especially as the Targaryen line weakened. Without dragons of their own and having lost many heirs, their political influence shrank. Over time, the Hightowers, Lannisters, and Baratheons rose in power, while House Velaryon faded into the background.
+
+By the time of Game of Thrones, House Velaryon is not mentioned, suggesting they are either extinct or no longer politically relevant. Their ancient bloodline and once-great fleet are lost to history, remembered mainly for their role in the Dance and their close ties to the dragonlords.
+
+🌟 Legacy and Traits
+House Velaryon is remembered for:
+
+Ancient Valyrian blood
+
+Mastery of the seas and shipbuilding
+
+Strong ties to House Targaryen
+
+Great wealth and naval power
+
+Loyalty to Rhaenyra during the Dance of the Dragons
+
+Even without dragons, they matched the Targaryens in wealth and ambition. Lord Corlys is one of the most admired figures in Westeros’s history, showing that you don't need dragons to become a legend.
+
+
+        ]]>
+        </description>
     </item>
     <item>
         <name>House Mormont</name>
         <image>assets/images/house-mormont.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[Here We Stand
+
+🐻 House Mormont of Bear Island
+House Mormont is a loyal and honorable noble house from the North. They are the rulers of Bear Island, a cold, forested island in the Bay of Ice, northwest of Winterfell. Their sigil is a black bear on a green field, and their house words are: “Here We Stand.”
+
+These words represent their courage, independence, and loyalty, even when surrounded by stronger and richer enemies.
+
+🌲 History and Culture
+House Mormont is one of the oldest vassal houses of House Stark. Even though they are not powerful or wealthy, they are fierce warriors and deeply loyal to the North. Bear Island was given to the Mormonts by King Rodrik Stark, the King in the North, long before the Targaryen Conquest.
+
+The people of Bear Island are known as tough and hardy, living in a harsh, cold climate. The island is often attacked by ironborn, and the Mormonts have a long tradition of defending their home themselves.
+
+Unlike many noble houses, House Mormont allows women to lead. This began long ago when there were no male heirs, and the women proved just as brave and skilled in battle. As a result, the house became known for its strong female leaders and warriors.
+
+⚔️ Important Members
+Jeor Mormont – Known as the “Old Bear,” he was Lord of Bear Island before joining the Night’s Watch. He became Lord Commander of the Watch and led the fight against the threats beyond the Wall. He chose Jon Snow as his steward and died during a mutiny at Craster’s Keep.
+
+Jorah Mormont – Jeor’s son. He was exiled after selling slaves to pay for his wife's luxurious lifestyle—an act illegal in Westeros. Ashamed, he fled to Essos and later became a loyal advisor to Daenerys Targaryen. Jorah redeems himself by protecting her and dies fighting to save her during the Battle of Winterfell against the White Walkers.
+
+Lyanna Mormont – A young girl who became Lady of Bear Island after her mother’s death. Despite her age, she was fierce, brave, and wise beyond her years. She supported Jon Snow as King in the North and fought in the Battle of Winterfell, where she died killing a giant wight, earning the respect of all the North.
+
+🐺 Role in Game of Thrones
+When Robb Stark called his banners to fight the Lannisters, House Mormont stood with the Starks, even though they had few soldiers to offer. After the Red Wedding, many Northern houses were too afraid to support the remaining Starks—but Lyanna Mormont refused to abandon them.
+
+Later, she played a key role in supporting Jon Snow and Sansa Stark during their war to take back Winterfell from House Bolton. Her famous speech about “House Mormont knowing no king but the King in the North, whose name is Stark” helped unite the North behind Jon Snow.
+
+During the Long Night, House Mormont bravely fought on the front lines. Lyanna led her people into battle herself, showing no fear.
+
+🕊️ Fate and Ending
+By the end of the series, House Mormont is nearly extinct. Jeor and Jorah both died far from home, and Lyanna dies in battle. It’s unknown who, if anyone, survives to rule Bear Island after her. The once small but proud house pays a great price in the wars, but their honor and bravery are never forgotten.
+
+They stood strong for the North until the very end, living up to their motto: “Here We Stand.”
+
+🌟 Legacy
+House Mormont is remembered not for riches or large armies, but for:
+
+Honor and loyalty to House Stark
+
+Strong women leaders and warriors
+
+Courage against impossible odds
+
+A legacy of sacrifice and bravery
+
+They are a shining example of Northern values: strength, loyalty, and standing tall—even when the world stands against you.
+]]>
+        </description>
     </item>
     <item>
         <name>House Frey</name>
         <image>assets/images/house-frey.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[We Stand Together
+
+🏰 House Frey of the Twins
+House Frey was a wealthy but much-despised noble house of the Riverlands. Their seat, the Twins, was a pair of identical castles connected by a large bridge over the Green Fork of the Trident River. Though not ancient or noble in the traditional sense, the Freys were clever, ambitious, and ruthless in pursuing power.
+
+Their sigil is two blue towers connected by a bridge on a silver-grey field, and their unofficial motto could very well be “Only a fool makes promises to House Frey.”
+
+🌉 History and Ambition
+House Frey was founded around 600 years ago, making it one of the newest noble houses in Westeros. Unlike the older houses who gained power through conquest or royal favor, the Freys gained wealth by building and controlling the only bridge crossing the Green Fork for hundreds of miles. They charged tolls and used their location to gain political leverage over time.
+
+Despite their wealth, other noble houses never fully accepted House Frey as true equals. Their rise was based more on greed and calculation than on honor or valor, and the older Riverlands houses—like House Tully—often looked down on them.
+
+Still, House Frey became large, powerful, and influential, with countless sons and daughters thanks to the efforts of Lord Walder Frey, who fathered over a hundred children by numerous wives and mistresses.
+
+🧓 Key Figures
+Lord Walder Frey – Known as the "Late Lord Frey" for arriving late to Robert's Rebellion, Walder was cunning, petty, and deeply concerned with advancing his family's power. He lived well past 90, overseeing every detail of his family’s growth. He was infamous for his lack of loyalty and brutal pragmatism.
+
+Lothar Frey – One of Walder’s more intelligent sons, known as “Lame Lothar.” He helped plan the Red Wedding and served as a tactician and administrator.
+
+Black Walder Rivers – Walder’s bastard grandson and a brutal, violent enforcer of the family’s will. He played a direct role in the Red Wedding's slaughter.
+
+⚔️ The Red Wedding and Betrayal
+House Frey’s most infamous act came during the War of the Five Kings, when Robb Stark broke his marriage pact to wed a Frey daughter. Enraged and humiliated, Walder Frey betrayed Robb, forming a secret alliance with House Lannister and House Bolton.
+
+This led to the Red Wedding, where Robb, his mother Catelyn Stark, and hundreds of Northern soldiers were massacred during a feast—an event that violated guest right, one of Westeros’ oldest and most sacred traditions. It was a horrific act of treachery that shocked the realm.
+
+Though House Frey gained lands and power temporarily, their name was forever tarnished.
+
+🐺 Role in Game of Thrones
+After the Red Wedding, House Frey ruled Riverrun and much of the Riverlands, but they never gained the respect of the people. Their rule was enforced through fear rather than loyalty.
+
+The Freys were widely hated across the realm. Many Riverlands lords resented them, and the North considered them traitors. Despite their temporary victory, their alliance with the Lannisters made them dependent on others for long-term survival.
+
+🗡️ Fate and Ending
+The Freys’ downfall came at the hands of Arya Stark, who infiltrated the Twins disguised as a servant. First, she killed Walder Frey and fed him his own sons in a meat pie. Then, wearing Walder’s face, she poisoned nearly all the male Freys during a feast, avenging the Red Wedding.
+
+By the end of the series, House Frey is virtually extinct, with no known male heirs remaining. Their hold over the Riverlands crumbled, and the Twins were left leaderless.
+
+🪦 Legacy
+House Frey is remembered for:
+
+Greed over honor
+
+Breaking sacred traditions
+
+The Red Wedding
+
+Betraying House Stark
+
+Earning total destruction at the hands of the North
+]]>
+        </description>
     </item>
     <item>
         <name>House Blackwood</name>
         <image>assets/images/house-blackwood.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[Our Words Are True
+
+🏰 House Blackwood of Raventree Hall
+House Blackwood is a proud and ancient noble house located in the southern Riverlands, sworn to House Tully of Riverrun. Their seat is Raventree Hall, known for the dead weirwood tree in its godswood surrounded by black ravens. Their sigil features a flock of black ravens on a red field, and while their official words are unconfirmed, the house is known for its deep loyalty, strong traditions, and fierce honor.
+
+🕰️ Ancient Origins and Early History
+House Blackwood traces its lineage back to the Age of Heroes and the First Men. They were once kings of a vast territory in the Riverlands before the Andal invasion. Unlike most other houses in the region, the Blackwoods kept the old ways and still worship the Old Gods of the Forest. Their rivalry with neighboring House Bracken—who converted to the Faith of the Seven—is one of the longest-running and bloodiest feuds in Westerosi history. This conflict began when both houses claimed rule over the same land and has continued for thousands of years.
+
+Legends say that the Blackwoods' lands are steeped in ancient magic, and the cursed weirwood at Raventree Hall is believed to be a remnant of some dark history. Despite the passage of time and many political changes, the Blackwoods have remained steadfast in their beliefs and cultural identity.
+
+⚔️ Role in Westeros
+House Blackwood is known for its fierce warriors, proud heritage, and loyalty to their allies. During Robert’s Rebellion, they supported House Tully and later House Stark. They have a reputation for justice, discipline, and a deep connection to their ancestral lands. Though they are not the wealthiest house in the Riverlands, they are respected for their strength, wisdom, and honor.
+
+Their long-standing conflict with House Bracken often brings minor skirmishes and tension to the Riverlands. Despite this, they are considered a powerful house, capable of raising a strong army when needed.
+
+🐉 House Blackwood in House of the Dragon
+In House of the Dragon, House Blackwood makes a striking appearance through young Lord Willem Blackwood, who boldly offers himself as a suitor to Princess Rhaenyra Targaryen. When insulted by a member of House Bracken, Willem kills his rival in a duel, reigniting the ancient feud between the houses. This moment reflects the pride, honor, and ferocity of House Blackwood.
+
+During the Dance of the Dragons, House Blackwood sides with Princess Rhaenyra and the Blacks. They raise banners in support of her claim and fight bravely in several battles throughout the Riverlands. Their contributions are crucial in resisting the Greens, led by Aegon II Targaryen and House Hightower.
+
+⚰️ Later History and Fate
+After the Targaryen civil war, House Blackwood continues to play a respected role in the Riverlands. In Game of Thrones, Lord Tytos Blackwood supports House Stark and House Tully during the War of the Five Kings. He is depicted as a serious, honorable lord who stands firm against Lannister pressure and does not betray his values.
+
+Though House Blackwood is not prominently featured on-screen, they survive the wars intact and remain loyal to the North and to justice. Their old gods, ancient castle, and fierce traditions keep them rooted even as the political landscape shifts.
+
+🌟 Legacy and Traits
+House Blackwood is known for:
+
+First Men ancestry and Old Gods worship
+
+Legendary feud with House Bracken
+
+Pride, honor, and loyalty
+
+Deep connection to magic and the past
+
+Key support for Rhaenyra during the Dance of the Dragons
+]]>
+        </description>
     </item>
     <item>
         <name>House Tarly</name>
         <image>assets/images/house-tarly.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[First in Battle
+
+       🏰 House Tarly of Horn Hill
+House Tarly is one of the most prominent and honorable noble houses of the Reach. They are sworn vassals of House Tyrell and are known for their military discipline, loyalty, and martial excellence. Their seat is Horn Hill, located in the verdant hills of the Reach, not far from Highgarden. The Tarly sigil features a striding huntsman on green, and their proud house words are “First in Battle.” The Tarlys are widely regarded as one of the finest warrior houses in Westeros, second only to the great lords themselves.
+
+🕰️ Ancient Origins and Early History
+House Tarly claims descent from the legendary First Men and has held Horn Hill for thousands of years. They have served as Marcher Lords, charged with defending the borders of the Reach against Dornish incursions. Because of their martial role, they were given greater autonomy and military responsibility than typical vassals.
+
+They became one of the most dependable houses in the Reach, respected for their unwavering honor, strict discipline, and battlefield prowess. The Tarlys adopted the Faith of the Seven early, and their traditions emphasize strength, obedience, and family honor.
+
+Throughout the Targaryen rule and the feudal wars that followed, House Tarly remained loyal to their liege lords. They participated in many key battles and earned a reputation for courage and competence, often leading troops when House Tyrell needed strong commanders.
+
+⚔️ Role in Westeros
+House Tarly is best known in Westeros for its military legacy. They have a long history of leading successful campaigns and suppressing uprisings. Lords of House Tarly are often regarded as skilled battlefield generals. They are also strict patriarchs, expecting discipline and bravery from their heirs and soldiers alike.
+
+During Robert’s Rebellion, Lord Randyll Tarly was one of the few commanders who remained loyal to the Targaryens. He led the Crown’s forces at the Battle of Ashford and crushed Robert’s rebel army. Despite his loyalty, after the rebellion ended, Randyll bent the knee to Robert Baratheon and retained his lands and titles.
+
+Lord Randyll is known for being a harsh but effective father and commander. His eldest son, Samwell Tarly, was deemed unworthy by Randyll due to his gentle nature and love for books. As punishment, Sam was forced to take the black and join the Night’s Watch, making his younger son Dickon the heir.
+
+🔥 House Tarly in Game of Thrones
+In the later years of Westeros, House Tarly plays a significant role in the power struggles of the realm. During the War of the Five Kings, the Tarlys support House Tyrell, and later, when House Tyrell allies with the Lannisters, Lord Randyll is appointed as Warden of the South by Queen Cersei.
+
+Despite being a traditionalist and no friend to the Targaryens, Randyll Tarly refuses to bend the knee to Daenerys Targaryen after her conquest of the Reach. Both Randyll and his son Dickon are executed by dragonfire for their refusal to submit, burned alive by Drogon under Daenerys’ command.
+
+This marks the near extinction of House Tarly’s male line, as Samwell is the only surviving son—but he remains in the Night’s Watch and thus cannot inherit titles or lands, at least officially. However, Sam’s loyalty, courage, and knowledge prove vital in the fight against the White Walkers.
+
+📚 Legacy and Traits
+House Tarly is remembered for:
+
+Strong military tradition and battlefield success
+
+Loyalty to liege lords and honor-driven decisions
+
+The strict leadership of Lord Randyll Tarly
+
+Complex legacy through Samwell Tarly
+
+Defiance of Daenerys Targaryen, ending in tragedy
+        ]]>
+        </description>
     </item>
     <item>
         <name>House Bolton</name>
         <image>assets/images/house-bolton.jpg</image>
-        <description>House Tully of Riverrun is a noble house in the Riverlands. Their motto is "Family, Duty, Honor."</description>
+        <description><![CDATA[Our Blades Are Sharp
+
+🏰 House Bolton of the Dreadfort
+House Bolton is one of the most feared and infamous noble houses in the North. For centuries, they were bitter rivals of House Stark, ruling from the Dreadfort—a grim and ancient stronghold located along the Weeping Water river. The Bolton sigil is a flayed man, red on pink, and their chilling house words are “Our Blades Are Sharp.” Known for cruelty, cunning, and a dark legacy of flaying enemies, House Bolton has long been associated with terror and treachery.
+
+🕰️ Ancient Origins and Early History
+The Boltons claim descent from the First Men and are among the oldest noble houses in Westeros. During the Age of Heroes and the Age of the Kings, the Boltons ruled a powerful domain in the North and frequently warred with the Kings in the North from House Stark. Some legends claim that the Boltons wore cloaks made of the skins of Stark lords they defeated.
+
+For centuries, House Bolton maintained the horrific tradition of flaying their enemies alive, a practice outlawed by House Stark after the Boltons bent the knee. Though forced to abandon open rebellion, the Boltons remained proud and dangerous, quietly building power and influence from the shadows of the North.
+
+Their seat, the Dreadfort, is as grim as its name—dark, cold, and filled with horror stories. The flayed man on their banners is not just a symbol but a historical fact of how they handled their foes.
+
+⚔️ Role in Westeros
+Despite their dark reputation, the Boltons remained loyal bannermen of House Stark for hundreds of years—at least in name. They fought in northern wars and attended the call of the Stark lords when needed, but they never truly abandoned their ambition to rule the North themselves.
+
+During the War of the Five Kings, Roose Bolton, the cunning and calculating Lord of the Dreadfort, initially fought for Robb Stark, the King in the North. However, he secretly plotted with House Lannister and orchestrated the Red Wedding—a betrayal that shocked the realm. Roose was named Warden of the North by Tywin Lannister as a reward.
+
+🐺 House Bolton in Game of Thrones
+With the Stark line seemingly broken, House Bolton rose to power. Roose’s bastard son, Ramsay Snow, was legitimized and became Ramsay Bolton. Ramsay was a sadistic, cruel, and unpredictable man, infamous for torture, hunting humans for sport, and manipulating his enemies. He captured and psychologically destroyed Theon Greyjoy, turning him into the broken servant called “Reek.”
+
+Ramsay’s cruelty alienated even other Northern lords, but he continued to consolidate power, marrying Sansa Stark by force in a political move to legitimize his rule over Winterfell. Ramsay’s reign brought misery, fear, and chaos to the North.
+
+Eventually, House Bolton’s tyranny sparked rebellion. With the help of the Wildlings, the Knights of the Vale, and loyal Stark bannermen, Jon Snow and Sansa led the Battle of the Bastards, where Ramsay was defeated and killed—fed to his own hounds. Roose had already been murdered by Ramsay himself.
+
+⚰️ Fall and Extinction
+House Bolton was extinguished following the Battle of the Bastards. With the deaths of Roose, Ramsay, and their forces, the house lost all power. The Dreadfort likely returned to a shadow of its former self, if not abandoned entirely.
+
+Their banners were torn down, and House Stark was restored as the ruling house of the North. Few mourned the fall of the Boltons, whose legacy was soaked in blood and betrayal.
+
+🌑 Legacy and Traits
+House Bolton is remembered for:
+
+Betrayal of the Starks at the Red Wedding
+
+Cruelty, flaying, and torture traditions
+
+Roose Bolton’s political cunning
+
+Ramsay Bolton’s sadism and madness
+
+Short but brutal rule over the North
+
+Total destruction by House Stark and Northern allies
+]]>
+        </description>
     </item>
 </houses>

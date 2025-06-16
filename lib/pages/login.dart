@@ -54,6 +54,7 @@ class _loginState extends State<login> {
                     child: Container(
                       width: 350,
                       child: TextFormField(
+                        cursorColor: AppColors.textSecondary,
                         style: TextStyle(
                           color: AppColors.textWhite
                         ),
@@ -95,6 +96,7 @@ class _loginState extends State<login> {
                       width: 350,
                       child: TextFormField(
                         controller: password,
+                        cursorColor: AppColors.textSecondary,
                         style: TextStyle(color: AppColors.textWhite),
                         keyboardType: TextInputType.visiblePassword,
                         decoration: InputDecoration(
@@ -132,22 +134,13 @@ class _loginState extends State<login> {
                   alignment: Alignment.center,
                   child: Row(
                     children: [
-                      OutlinedButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => forgate()),
-                          );
-                        },
-                        style: OutlinedButton.styleFrom(
-                          side: BorderSide.none, // optional: removes border
-                          textStyle: const TextStyle(
-                            fontFamily: 'GameOfThrones',
-                            fontSize: 10,
-                          ),
-                          foregroundColor: AppColors.textSecondary,
-                        ),
-                        child: const Text("Send a Raven to recover your words.?"),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: InkWell(
+                            onTap: (){
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => forgate()));
+                            },
+                            child: Text("Send a Raven to recover your words.?",style: TextStyle(color: AppColors.textSecondary,fontSize: 19),)),
                       ),
                     ],
                   ),

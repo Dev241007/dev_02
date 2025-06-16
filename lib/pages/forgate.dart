@@ -66,6 +66,7 @@ class _forgateState extends State<forgate> {
                       child: Container(
                         width: 350,
                         child: TextFormField(
+                          cursorColor: AppColors.textSecondary,
                           style: TextStyle(color: AppColors.textWhite),
                           controller: email,
                           keyboardType: TextInputType.emailAddress,

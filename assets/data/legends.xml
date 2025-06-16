@@ -1,0 +1,73 @@
+<legends>
+    <item>
+        <name>Aegon the Conqueror</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        United the Seven Kingdoms with dragons. Created the Iron Throne. Rode Balerion the Black Dread.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Daenerys Targaryen</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        Mother of Dragons, breaker of chains, and near-claimant to the Iron Throne. Rode Drogon.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Jon Snow</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        Bastard turned hero. Defeated the Night King and is the true heir to the Iron Throne.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Tyrion Lannister</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        The cleverest man in Westeros. Served as Hand of the King and Queen. Master of survival.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Rhaenyra Targaryen</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        First woman to claim the Iron Throne. Her claim caused the Dance of the Dragons. Rode Syrax.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Daemon Targaryen</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        Rogue Prince, fearless warrior, loyal to Rhaenyra. Rode the dragon Caraxes.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Ned Stark</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        Honorable lord of Winterfell. His death triggered the War of the Five Kings.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Tywin Lannister</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        Ruthless strategist and Hand of the King. Led House Lannister to dominance.
+        ]]></description>
+    </item>
+
+    <item>
+        <name>Jaime Lannister</name>
+        <image>assets/images/dragons/syrex.jpg</image>
+        <description><![CDATA[
+        From Kingslayer to tragic hero. Known for complex redemption and loyalty. Wielded Oathkeeper.
+        ]]></description>
+    </item>
+</legends>

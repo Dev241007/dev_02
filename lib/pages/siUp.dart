@@ -23,17 +23,6 @@ class _siUpState extends State<siUp> {
     final emailText = email.text.trim();
     final passwordText = password.text.trim();
 
-    final allowedDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com'];
-
-    String domain = emailText.split('@').last;
-
-    if (!allowedDomains.contains(domain)) {
-      setState(() {
-        errorMessage = 'Please use a valid email provider like Gmail or Yahoo.';
-      });
-      return;
-    }
-
     try {
       await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: emailText,
@@ -42,12 +31,11 @@ class _siUpState extends State<siUp> {
       Get.offAll(Wrapper());
     } on FirebaseAuthException catch (e) {
       if (e.code == 'email-already-in-use') {
-        setState(() {
-          errorMessage = 'User already exists. Please try logging in.';
-        });
+      return "Email Already Registered";
       }
     }
   }
+  final formkey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -86,30 +74,33 @@ class _siUpState extends State<siUp> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Container(
-                  width: 350,
-                  child: TextFormField(
-                    style: TextStyle(color: AppColors.textWhite),
-                    controller: email,
-                    keyboardType: TextInputType.emailAddress,
-                    decoration: InputDecoration(
-                      filled: true,
-                        fillColor: AppColors.dark_gray,
-                        label: Text("Raven’s Address"),
-                        labelStyle: TextStyle(color: AppColors.textSecondary),
-                        hintText: "Enter Your Raven’s Address",
-                        hintStyle: TextStyle(color: AppColors.textSecondary),
-                        prefixIcon: Icon(Icons.email,color: AppColors.royal_gold,),
-                        focusedBorder: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(10),
-                            borderSide: const BorderSide(color:AppColors.royal_gold)
-                        ),
-                        enabledBorder: OutlineInputBorder(
-                    borderSide: const BorderSide(color: AppColors.textSecondary),
-                    borderRadius: BorderRadius.circular(10),
-                  ),
+                child: Form(
+                  child: Container(
+                    width: 350,
+                    child: TextFormField(
+                      cursorColor: AppColors.textSecondary,
+                      style: TextStyle(color: AppColors.textWhite),
+                      controller: email,
+                      keyboardType: TextInputType.emailAddress,
+                      decoration: InputDecoration(
+                        filled: true,
+                          fillColor: AppColors.dark_gray,
+                          label: Text("Raven’s Address"),
+                          labelStyle: TextStyle(color: AppColors.textSecondary),
+                          hintText: "Enter Your Raven’s Address",
+                          hintStyle: TextStyle(color: AppColors.textSecondary),
+                          prefixIcon: Icon(Icons.email,color: AppColors.royal_gold,),
+                          focusedBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: const BorderSide(color:AppColors.royal_gold)
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                      borderSide: const BorderSide(color: AppColors.textSecondary),
+                      borderRadius: BorderRadius.circular(10),
                     ),
-          
+                      ),
+                            
+                    ),
                   ),
                 ),
               ),
@@ -121,6 +112,8 @@ class _siUpState extends State<siUp> {
                 child: Container(
                   width: 350,
                   child: TextFormField(
+                    style: TextStyle(color: AppColors.textSecondary),
+                    cursorColor: AppColors.textSecondary,
                     controller: password,
                     keyboardType: TextInputType.visiblePassword,
                     decoration: InputDecoration(
@@ -174,6 +167,7 @@ class _siUpState extends State<siUp> {
                 padding: const EdgeInsets.all(2.0),
                 child: OutlinedButton(
                   onPressed: () {
+                    formkey.currentState!.validate();
                     Navigator.push(context, MaterialPageRoute(builder: (context) => login()));
                   },
                   style: OutlinedButton.styleFrom(

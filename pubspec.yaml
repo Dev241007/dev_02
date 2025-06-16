@@ -41,6 +41,7 @@ dependencies:
   get: ^4.7.2
   xml: ^6.5.0
   lottie: ^3.3.1
+  share_plus: ^11.0.0
   flutter_native_splash: ^2.4.6
   flutter_launcher_icons: ^0.14.3
 
@@ -83,14 +84,14 @@ flutter:
   assets:
     - assets/icons/left-arrow.svg
     - assets/icons/profile.svg
-    - assets/images/house-stark.jpg
+    - assets/icons/dragon.png
+    - assets/icons/
     - assets/data/houses.xml
-    - assets/images/stark.jpg
-    - assets/images/GOT.png
-    - assets/images/house-targaryen.jpg
-    - assets/images/house-lennister.jpg
+    - assets/data/dragons.xml
+    - assets/data/legends.xml
     - assets/images/
     - assets/animations/
+    - assets/images/dragons/
 #    - assets/animations/animation-1.json
 #    - assets/animations/animation-2.json
 #    - assets/animations/animation-3.json
