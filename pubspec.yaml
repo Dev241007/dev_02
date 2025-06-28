@@ -44,6 +44,7 @@ dependencies:
   share_plus: ^11.0.0
   flutter_native_splash: ^2.4.6
   flutter_launcher_icons: ^0.14.3
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,9 @@ flutter_launcher_icons:
   ios: false
   image_path: "assets/images/stark.jpg"
 
+dependency_overrides:
+  path_provider_android:
+    path: local_plugins/path_provider_android
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -82,8 +86,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/icons/left-arrow.svg
-    - assets/icons/profile.svg
     - assets/icons/dragon.png
     - assets/icons/
     - assets/data/houses.xml
@@ -92,6 +94,7 @@ flutter:
     - assets/images/
     - assets/animations/
     - assets/images/dragons/
+    - assets/images/Legends/
 #    - assets/animations/animation-1.json
 #    - assets/animations/animation-2.json
 #    - assets/animations/animation-3.json

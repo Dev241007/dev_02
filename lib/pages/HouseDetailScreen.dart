@@ -21,9 +21,12 @@ class Housedetailscreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         scrolledUnderElevation: 0.0,
-        title: Text(houseName,style: TextStyle(fontFamily: 'GameOfThrones',fontSize: 20,color: AppColors.royal_gold,fontWeight: FontWeight.w800),),
+        title: Text(houseName, style: TextStyle(fontFamily: 'GameOfThrones',
+            fontSize: 20,
+            color: AppColors.royal_gold,
+            fontWeight: FontWeight.w800),),
         leading: IconButton(
-          icon:  Icon(Icons.arrow_back,color: AppColors.royal_gold,),
+          icon: Icon(Icons.arrow_back, color: AppColors.royal_gold,),
           onPressed: () {
             Navigator.pop(context);
           },
@@ -31,29 +34,32 @@ class Housedetailscreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(10),
-              child: Card(
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-                  child: ClipRRect(
-borderRadius: BorderRadius.circular(30),
-                      child: Image.asset(imageUrl))),
-            ),
-              Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: Text(
-                  description,
-                  style: TextStyle(fontSize: 19,color: AppColors.textSecondary,fontWeight: FontWeight.w900),
-                  textAlign: TextAlign.justify,
+            children: [
+        Padding(
+        padding: const EdgeInsets.all(10),
+        child: Card(
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(50)),
+            child: ClipRRect(
+                borderRadius: BorderRadius.circular(30),
+                child: Image.asset(imageUrl))),
+      ),
+      Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Text(
+          description,
+          style: TextStyle(fontSize: 19,
+              color: AppColors.textSecondary,
+              fontWeight: FontWeight.w900),
+          textAlign: TextAlign.justify,
 
-                ),
-              ),
-
-            SizedBox(height: 10,)
-          ],
         ),
       ),
+
+      SizedBox(height: 10,)
+      ],
+    ),)
+    ,
     );
   }
 }

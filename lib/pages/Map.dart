@@ -30,10 +30,10 @@ class _gotMapState extends State<gotMap> {
           ),
         ),
       ),
+      body: InteractiveViewer(child: Image.asset("assets/images/Got.jpg",height: 800,),maxScale: 10.00,),
     );
   }
 }
-
 
 class hodMap extends StatefulWidget {
   const hodMap({super.key});
@@ -56,7 +56,7 @@ class _hodMapState extends State<hodMap> {
           icon: Icon(Icons.arrow_back, color: AppColors.royal_gold),
         ),
         title: Text(
-          "House Of The Dragons Map",
+          "What's  Got  ",
           style: TextStyle(
             fontFamily: 'GameOfThrones',
             fontSize: 16,

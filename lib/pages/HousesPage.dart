@@ -68,10 +68,14 @@ class _HousesPageState extends State<HousesPage> {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(color: AppColors.deep_black),
-              child: Container(
-                child: Image.asset(
-                  "assets/images/stark.jpg",
-                  fit: BoxFit.cover,
+              child: Center(
+                child: Container(
+                  child: Image.asset(
+                    "assets/images/header.png",
+                    height: 300,
+                    width: 200,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ),
@@ -98,9 +102,9 @@ class _HousesPageState extends State<HousesPage> {
                   },
                 ),
                 ListTile(
-                  leading: Icon(Icons.map_rounded, color: AppColors.royal_gold),
+                  leading: Icon(Icons.more_vert, color: AppColors.royal_gold),
                   title: Text(
-                    "House Of The Dragons Map",
+                    "What's  Got",
                     style: TextStyle(
                       color: AppColors.royal_gold,
                       fontFamily: 'GameOfThrones',
@@ -218,8 +222,8 @@ class _HousesPageState extends State<HousesPage> {
           BottomNavigationBarItem(
             icon: Image.asset(
               'assets/icons/dragon.png',
-              width: 24,
-              height: 24,
+              width: 20,
+              height: 20,
               color: AppColors.royal_gold,
             ),
             label: "Dragons",

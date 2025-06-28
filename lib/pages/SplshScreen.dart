@@ -16,7 +16,7 @@ class _SplshscreenState extends State<Splshscreen> {
   @override
   void initState(){
     super.initState();
-    Timer(Duration(seconds: 2), (){
+    Timer(Duration(seconds: 4), (){
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Wrapper()),);
     });
   }
@@ -27,10 +27,10 @@ class _SplshscreenState extends State<Splshscreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/images/stark.jpg',height: 350,),
-Text("Game Of Thrones",style: TextStyle(color: AppColors.royal_gold,fontSize: 20,fontFamily: 'GameOfThrones'),),
-            SizedBox(height: 10,),
-            Text("Houses And Dragons",style: TextStyle(color: AppColors.royal_gold,fontSize: 10,fontFamily: 'GameOfThrones'),)
+            Image.asset('assets/images/logo.png',height: 450,),
+// Text("Game Of Thrones",style: TextStyle(color: AppColors.royal_gold,fontSize: 20,fontFamily: 'GameOfThrones'),),
+//             SizedBox(height: 10,),
+//             Text("Houses And Dragons",style: TextStyle(color: AppColors.royal_gold,fontSize: 10,fontFamily: 'GameOfThrones'),)
           ],
         ),
       ),

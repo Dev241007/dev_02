@@ -1,7 +1,7 @@
 <houses>
     <item>
         <name>House Stark</name>
-        <image>assets/images/house-stark.jpg</image>
+        <image>assets/images/house-stark.png</image>
         <description><![CDATA[Winter Is Coming
 
 
@@ -27,7 +27,7 @@ In all, House Stark represents honor, endurance, and the enduring power of famil
     <item>
 
         <name>House Targaryen(HOTD)</name>
-        <image>assets/images/house-targaryen.jpg</image>
+        <image>assets/images/targaryen.png</image>
         <description><![CDATA[The Targaryens in House of the Dragon - Fire and Blood
 
 The Targaryens are the focal family in House of the Dragon, a prequel series set roughly 200 years before the events of Game of Thrones. Their story is one of power, legacy, dragons, and tragedy—a dynasty forged in fire that rises to rule the Seven Kingdoms of Westeros, only to be nearly destroyed by internal conflict.
@@ -78,7 +78,7 @@ The Targaryens in House of the Dragon embody the dual nature of power—capable 
     </item>
     <item>
         <name>House Lannister</name>
-        <image>assets/images/house-lennister.jpg</image>
+        <image>assets/images/lannister.png</image>
         <description><![CDATA[Hear Me Roar
 
 House Lannister of Casterly Rock is one of tshe Great Houses of Seven Kingdoms, and the principal house of the westerlands. Their seat is Casterly Rock, though another branch exists in nearby Lannisport. Their sigil is a golden roaring lion on a field of crimson. Their official motto is "Hear Me Roar!" However, their unofficial motto, equally well known, is "A Lannister always pays his debts." The Warden of the West is a Lannister by tradition. Their gold mines have made the Lannisters the wealthiest of the Great Houses and the Lannister fleet is anchored at Lannisport.
@@ -109,7 +109,7 @@ Although the Lannisters initially win battles against Daenerys, they eventually 
     </item>
     <item>
         <name>House Baratheon</name>
-        <image>assets/images/house-baratheon.jpg</image>
+        <image>assets/images/baratheon.png</image>
         <description><![CDATA[Ours Is the Fury
 
    House Baratheon of Storm's End is one of the Great Houses of Westeros, and is the principal house in the stormlands, which they rule as Lords Paramount of the Stormlands. Their seat, Storm's End, is an ancient castle raised by the Storm Kings from the now-extinct House Durrandon. The Baratheon sigil is a crowned black stag on a field of gold. Their words are "Ours is the Fury".
@@ -148,7 +148,7 @@ The regent of King Tommen I Baratheon, Ser Kevan Lannister, is murdered in King'
     </item>
     <item>
         <name>House Greyjoy</name>
-        <image>assets/images/house-greyjoy.jpg</image>
+        <image>assets/images/greyjoy.png</image>
         <description><![CDATA[We Do Not Sow
 
 House Greyjoy of Pyke
@@ -181,7 +181,7 @@ Eventually, Euron Greyjoy was killed by Jaime Lannister during the battle for Ki
     </item>
     <item>
         <name>House Arryn</name>
-        <image>assets/images/house-arryn.jpg</image>
+        <image>assets/images/arryn.png</image>
         <description><![CDATA[As High as Honor
 
 House Arryn of the Eyrie
@@ -211,7 +211,7 @@ Robin Arryn is present at the council that chooses Bran Stark as King of the Six
     </item>
     <item>
         <name>House Martell</name>
-        <image>assets/images/house-martell.jpg</image>
+        <image>assets/images/martell.png</image>
         <description><![CDATA[Unbowed, Unbent, Unbroken
 
 House Martell of Sunspear
@@ -244,7 +244,7 @@ In the final season, after the wars have ended, a new Prince of Dorne is chosen 
     </item>
     <item>
         <name>House Tully</name>
-        <image>assets/images/house-tully.jpg</image>
+        <image>assets/images/tully.png</image>
         <description><![CDATA[Family, Duty, Honor
 
 House Tully of Riverrun
@@ -278,7 +278,7 @@ In the final season, Edmure appears at the Great Council in King's Landing. He a
     </item>
     <item>
         <name>House Tyrell</name>
-        <image>assets/images/house-tyrell.jpg</image>
+        <image>assets/images/tyrell.png</image>
         <description><![CDATA[Growing Strong
 
 House Tyrell of Highgarden
@@ -309,7 +309,7 @@ In a final meeting between Jaime and Olenna, she accepts her fate but admits to 
     </item>
     <item>
         <name>House Hightower</name>
-        <image>assets/images/house-hightower.jpg</image>
+        <image>assets/images/hightower.png</image>
         <description><![CDATA[We Light The Way
 
 House Hightower of Oldtown
@@ -360,7 +360,7 @@ A key role in the Dance of the Dragons
     </item>
     <item>
         <name>House Velaryon</name>
-        <image>assets/images/house-velaryon.jpg</image>
+        <image>assets/images/valaryon.png</image>
         <description><![CDATA[The Old, the True, the Brave
 
 🐚 House Velaryon of Driftmark
@@ -411,7 +411,7 @@ Even without dragons, they matched the Targaryens in wealth and ambition. Lord C
     </item>
     <item>
         <name>House Mormont</name>
-        <image>assets/images/house-mormont.jpg</image>
+        <image>assets/images/mormont.png</image>
         <description><![CDATA[Here We Stand
 
 🐻 House Mormont of Bear Island
@@ -462,7 +462,7 @@ They are a shining example of Northern values: strength, loyalty, and standing t
     </item>
     <item>
         <name>House Frey</name>
-        <image>assets/images/house-frey.jpg</image>
+        <image>assets/images/frey.png</image>
         <description><![CDATA[We Stand Together
 
 🏰 House Frey of the Twins
@@ -518,7 +518,7 @@ Earning total destruction at the hands of the North
     </item>
     <item>
         <name>House Blackwood</name>
-        <image>assets/images/house-blackwood.jpg</image>
+        <image>assets/images/blackwood.png</image>
         <description><![CDATA[Our Words Are True
 
 🏰 House Blackwood of Raventree Hall
@@ -561,7 +561,7 @@ Key support for Rhaenyra during the Dance of the Dragons
     </item>
     <item>
         <name>House Tarly</name>
-        <image>assets/images/house-tarly.jpg</image>
+        <image>assets/images/tarly.png</image>
         <description><![CDATA[First in Battle
 
        🏰 House Tarly of Horn Hill
@@ -605,7 +605,7 @@ Defiance of Daenerys Targaryen, ending in tragedy
     </item>
     <item>
         <name>House Bolton</name>
-        <image>assets/images/house-bolton.jpg</image>
+        <image>assets/images/bolton.png</image>
         <description><![CDATA[Our Blades Are Sharp
 
 🏰 House Bolton of the Dreadfort
