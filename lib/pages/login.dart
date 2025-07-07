@@ -3,6 +3,7 @@ import 'package:dev_02/pages/siUp.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:dev_02/pages/colors.dart';
+import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 
 class login extends StatefulWidget {
@@ -16,9 +17,35 @@ class _loginState extends State<login> {
   TextEditingController email = TextEditingController();
   TextEditingController password = TextEditingController();
 
+
   signIn()async{
-    await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text, password: password.text);
+    if (email.isNull || password.isNull) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("Please enter email and password",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+      );
+      return;
+    }
+
+    try {
+      await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text, password: password.text);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("Login successful!",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+      );
+      // Navigate to your home page or main screen here
+    } on FirebaseAuthException catch (e) {
+      // Handle Firebase login errors
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Center(child: Text( "Please  Enter  Valid  Details ",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),)),backgroundColor: AppColors.deep_black,),
+      );
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Center(child: Text( "Something went wrong",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),)),backgroundColor: AppColors.deep_black,),
+      );
+    }
   }
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

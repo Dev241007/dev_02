@@ -30,7 +30,17 @@ class _gotMapState extends State<gotMap> {
           ),
         ),
       ),
-      body: InteractiveViewer(child: Image.asset("assets/images/Got.jpg",height: 800,),maxScale: 10.00,),
+      body: InteractiveViewer(
+        maxScale: 10.00,
+        child: Image.network(
+          "https://res.cloudinary.com/dehg4gzik/image/upload/v1751389989/Got_rylvv2.jpg",
+          loadingBuilder : (context,child,loadingprogress){
+            if(loadingprogress == null) return child;
+            return Center(child: CircularProgressIndicator(color: AppColors.royal_gold,),);
+          },
+          height: 800,
+        ),
+      ),
     );
   }
 }

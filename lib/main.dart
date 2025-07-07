@@ -1,9 +1,3 @@
-import 'package:dev_02/pages/Task1.dart';
-import 'package:dev_02/pages/HousesPage.dart';
-import 'package:dev_02/pages/forgate.dart';
-import 'package:dev_02/pages/login.dart';
-import 'package:dev_02/pages/siUp.dart';
-import 'package:dev_02/pages/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

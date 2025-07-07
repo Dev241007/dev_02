@@ -1,4 +1,3 @@
-import 'package:dev_02/pages/Task1.dart';
 import 'package:dev_02/pages/HousesPage.dart';
 import 'package:dev_02/pages/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';

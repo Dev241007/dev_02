@@ -19,10 +19,22 @@ class _siUpState extends State<siUp> {
   TextEditingController password = TextEditingController();
   String? errorMessage; // <-- Add this
 
+
+
   signup() async {
     final emailText = email.text.trim();
     final passwordText = password.text.trim();
-
+    bool isValidEmail(String email) {
+      // Basic regex for email validation
+      final emailRegex = RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$');
+      return emailRegex.hasMatch(email);
+    }
+    if (!isValidEmail(emailText)) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("Please enter a valid email address",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+      );
+      return;
+    }
     try {
       await FirebaseAuth.instance.createUserWithEmailAndPassword(
         email: emailText,
@@ -31,7 +43,9 @@ class _siUpState extends State<siUp> {
       Get.offAll(Wrapper());
     } on FirebaseAuthException catch (e) {
       if (e.code == 'email-already-in-use') {
-      return "Email Already Registered";
+      return   ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("email address already in use")),
+      );
       }
     }
   }

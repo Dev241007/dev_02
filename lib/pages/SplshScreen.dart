@@ -1,7 +1,4 @@
 import 'dart:async';
-
-import 'package:dev_02/pages/colors.dart';
-import 'package:dev_02/pages/login.dart';
 import 'package:dev_02/pages/wrapper.dart';
 import 'package:flutter/material.dart';
 
