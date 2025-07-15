@@ -1,4 +1,5 @@
 import 'package:dev_02/pages/colors.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 class gotMap extends StatefulWidget {
@@ -34,9 +35,11 @@ class _gotMapState extends State<gotMap> {
         maxScale: 10.00,
         child: Image.network(
           "https://res.cloudinary.com/dehg4gzik/image/upload/v1751389989/Got_rylvv2.jpg",
-          loadingBuilder : (context,child,loadingprogress){
-            if(loadingprogress == null) return child;
-            return Center(child: CircularProgressIndicator(color: AppColors.royal_gold,),);
+          loadingBuilder: (context, child, loadingprogress) {
+            if (loadingprogress == null) return child;
+            return Center(
+              child: CircularProgressIndicator(color: AppColors.royal_gold),
+            );
           },
           height: 800,
         ),
@@ -53,6 +56,28 @@ class hodMap extends StatefulWidget {
 }
 
 class _hodMapState extends State<hodMap> {
+  final DatabaseReference dbref = FirebaseDatabase.instance.ref().child(
+    'about_got/description',
+  );
+
+  String? gotDescription;
+
+  @override
+  void initState() {
+    super.initState();
+    fetchdescription();
+  }
+
+  void fetchdescription() async {
+    DatabaseEvent event = await dbref.once();
+    final data = event.snapshot.value as String?;
+    if (data != null) {
+      setState(() {
+        gotDescription = data;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -71,6 +96,23 @@ class _hodMapState extends State<hodMap> {
             fontFamily: 'GameOfThrones',
             fontSize: 16,
             color: AppColors.royal_gold,
+          ),
+        ),
+      ),
+      body: gotDescription == null
+          ? Center(child: CircularProgressIndicator(color: AppColors.royal_gold))
+      : Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: SingleChildScrollView(
+          child: Text(
+            gotDescription!,
+            style: TextStyle(
+              fontSize: 17,
+              fontFamily: 'Sora',
+              color: AppColors.textSecondary,
+              fontWeight: FontWeight.w300,
+            ),
+            textAlign: TextAlign.justify,
           ),
         ),
       ),

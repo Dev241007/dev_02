@@ -105,7 +105,7 @@ class _HousesPageState extends State<HousesPage> {
                   },
                 ),
                 ListTile(
-                  leading: Icon(Icons.more_vert, color: AppColors.royal_gold),
+                  leading: Image.asset("assets/icons/got.png",color: AppColors.royal_gold,height: 29),
                   title: Text(
                     "What's  Got",
                     style: TextStyle(
