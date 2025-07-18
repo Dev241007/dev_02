@@ -45,12 +45,13 @@ class _HousesPageState extends State<HousesPage> {
       backgroundColor: AppColors.deep_black,
       appBar: AppBar(
         leading: Builder(
-          builder: (context) => IconButton(
-            onPressed: () {
-              Scaffold.of(context).openDrawer();
-            },
-            icon: Icon(Icons.menu, color: AppColors.royal_gold),
-          ),
+          builder: (context) =>
+              IconButton(
+                onPressed: () {
+                  Scaffold.of(context).openDrawer();
+                },
+                icon: Icon(Icons.menu, color: AppColors.royal_gold),
+              ),
         ),
 
         backgroundColor: Colors.transparent,
@@ -105,7 +106,9 @@ class _HousesPageState extends State<HousesPage> {
                   },
                 ),
                 ListTile(
-                  leading: Image.asset("assets/icons/got.png",color: AppColors.royal_gold,height: 29),
+                  leading: Image.asset(
+                      "assets/icons/got.png", color: AppColors.royal_gold,
+                      height: 29),
                   title: Text(
                     "What's  Got",
                     style: TextStyle(
@@ -133,10 +136,12 @@ class _HousesPageState extends State<HousesPage> {
                   ),
                   onTap: () {
                     Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => familytree()),
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => FamilyTreeScreen(),
+                        )
                     );
-                  },
+                    },
                 ),
                 ListTile(
                   leading: Icon(Icons.share, color: AppColors.royal_gold),
@@ -164,41 +169,45 @@ class _HousesPageState extends State<HousesPage> {
                       fontSize: 12,
                     ),
                   ),
-                  onTap: () => showDialog(
-                    context: context,
-                    builder: (BuildContext context) => AlertDialog(
-                      backgroundColor: AppColors.deep_black,
-                      title: Text(
-                        "SignOut",
-                        style: TextStyle(color: AppColors.textWhite),
+                  onTap: () =>
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) =>
+                            AlertDialog(
+                              backgroundColor: AppColors.deep_black,
+                              title: Text(
+                                "SignOut",
+                                style: TextStyle(color: AppColors.textWhite),
+                              ),
+                              content: Text(
+                                "Do You Want to Signout ?",
+                                style: TextStyle(color: AppColors.textWhite),
+                              ),
+                              actions: [
+                                TextButton(
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                  },
+                                  child: Text(
+                                    "No",
+                                    style: TextStyle(
+                                        color: AppColors.royal_gold),
+                                  ),
+                                ),
+                                TextButton(
+                                  onPressed: () async {
+                                    await FirebaseAuth.instance.signOut();
+                                    Navigator.pop(context);
+                                  },
+                                  child: Text(
+                                    "Yas",
+                                    style: TextStyle(
+                                        color: AppColors.royal_gold),
+                                  ),
+                                ),
+                              ],
+                            ),
                       ),
-                      content: Text(
-                        "Do You Want to Signout ?",
-                        style: TextStyle(color: AppColors.textWhite),
-                      ),
-                      actions: [
-                        TextButton(
-                          onPressed: () {
-                            Navigator.pop(context);
-                          },
-                          child: Text(
-                            "No",
-                            style: TextStyle(color: AppColors.royal_gold),
-                          ),
-                        ),
-                        TextButton(
-                          onPressed: () async {
-                            await FirebaseAuth.instance.signOut();
-                            Navigator.pop(context);
-                          },
-                          child: Text(
-                            "Yas",
-                            style: TextStyle(color: AppColors.royal_gold),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
                 ),
               ],
             ),

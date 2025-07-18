@@ -102,7 +102,7 @@ class _hodMapState extends State<hodMap> {
       body: gotDescription == null
           ? Center(child: CircularProgressIndicator(color: AppColors.royal_gold))
       : Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.only(bottom: 40,right: 10,left: 10,top: 10),
         child: SingleChildScrollView(
           child: Text(
             gotDescription!,

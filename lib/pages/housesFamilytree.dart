@@ -1,39 +1,54 @@
+import 'package:dev_02/pages/FamlyTree.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-
-import 'Houses_List.dart';
 import 'colors.dart';
 
-class familytree extends StatefulWidget {
-  const familytree({super.key});
+class Housestree {
+  final String name;
+  final String imgUrl;
+  final String Houses_Tree_Image;
 
-  @override
-  State<familytree> createState() => _familytreeState();
+  Housestree({required this.name, required this.imgUrl , required this.Houses_Tree_Image});
+
+  factory Housestree.fromMap(Map<String, dynamic> map) {
+    return Housestree(
+      name: map['name'] ?? '',
+      imgUrl: map['image'] ?? '',
+      Houses_Tree_Image: map['tree_image'] ?? '',
+    );
+  }
 }
 
-class _familytreeState extends State<familytree> {
+class FamilyTreeScreen extends StatefulWidget {
+  const FamilyTreeScreen({super.key});
+
   @override
-  Future<List<House>> loadHousesFromFirebase() async {
-    final DatabaseReference dbref = FirebaseDatabase.instance.ref("houses");
+  State<FamilyTreeScreen> createState() => _FamilyTreeScreenState();
+}
+
+class _FamilyTreeScreenState extends State<FamilyTreeScreen> {
+  Future<List<Housestree>> loadHousesFromFirebase() async {
+    final DatabaseReference dbref = FirebaseDatabase.instance.ref("house_tree");
     final DatabaseEvent event = await dbref.once();
-    final Data = event.snapshot.value;
+    final data = event.snapshot.value;
 
-    List<House> houseslist = [];
+    List<Housestree> houseslist = [];
 
-    if (Data is List) {
-      for (var element in Data) {
+    if (data is List) {
+      for (var element in data) {
         if (element != null) {
-          houseslist.add(House.fromMap(Map<String, dynamic>.from(element)));
+          houseslist.add(Housestree.fromMap(Map<String, dynamic>.from(element)));
         }
       }
-    } else if (Data is Map) {
-      Data.forEach((key, value) {
-        houseslist.add(House.fromMap(Map<String, dynamic>.from(value)));
+    } else if (data is Map) {
+      data.forEach((key, value) {
+        houseslist.add(Housestree.fromMap(Map<String, dynamic>.from(value)));
       });
     }
     return houseslist;
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.deep_black,
@@ -54,7 +69,7 @@ class _familytreeState extends State<familytree> {
           ),
         ),
       ),
-      body: FutureBuilder<List<House>>(
+      body: FutureBuilder<List<Housestree>>(
         future: loadHousesFromFirebase(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
@@ -64,21 +79,24 @@ class _familytreeState extends State<familytree> {
           }
           if (snapshot.hasError) {
             return Center(
-              child: CircularProgressIndicator(color: AppColors.royal_gold),
+              child: Text("Error loading data", style: TextStyle(color: Colors.white)),
             );
           }
-          final houses_tree = snapshot.data ?? [];
+          final housesTree = snapshot.data ?? [];
           return GridView.builder(
-            itemCount: houses_tree.length,
-            padding: const EdgeInsets.all(8.0),
+            itemCount: housesTree.length,
+            padding: const EdgeInsets.only(bottom: 60,left: 8,right: 8,top: 8),
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               mainAxisSpacing: 12,
               crossAxisSpacing: 12,
             ),
             itemBuilder: (context, index) {
-              final H = houses_tree[index];
+              final house = housesTree[index];
               return GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => FamilyTree(Name: house.name, TreeImage: house.Houses_Tree_Image)));
+                },
                 child: Padding(
                   padding: const EdgeInsets.all(2.0),
                   child: Container(
@@ -90,20 +108,25 @@ class _familytreeState extends State<familytree> {
                       children: [
                         ClipRRect(
                           borderRadius: BorderRadius.circular(25),
-                          child: Image.asset(
-                            H.imgUrl,
+                          child:  Image.network(
+                            house.imgUrl,
                             height: 200,
                             width: double.infinity,
                             fit: BoxFit.cover,
-                          ),
+                            loadingBuilder: (context, child, loadingprogress) {
+                              if (loadingprogress == null) return child;
+                              return Center(
+                                child: CircularProgressIndicator(color: AppColors.royal_gold),
+                              );
+                            },
                         ),
-
+                        ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Align(
                             alignment: Alignment.bottomCenter,
                             child: Text(
-                              H.name,
+                              house.name,
                               style: TextStyle(
                                 color: AppColors.textWhite,
                                 fontFamily: 'GameOfThrones',
@@ -120,7 +143,7 @@ class _familytreeState extends State<familytree> {
                             ),
                           ),
                         ),
-                        SizedBox(height: 30),
+
                       ],
                     ),
                   ),

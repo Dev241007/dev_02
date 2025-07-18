@@ -31,7 +31,19 @@ class _siUpState extends State<siUp> {
     }
     if (!isValidEmail(emailText)) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Please enter a valid email address",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+        SnackBar(content: Text("Please enter a valid email address",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+      );
+      return;
+    }
+    if ( passwordText.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("Please Enter Password",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+      );
+      return;
+    }
+    if ( passwordText.length < 6) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text(" Password At Least 6 character",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
       );
       return;
     }
@@ -42,14 +54,29 @@ class _siUpState extends State<siUp> {
       );
       Get.offAll(Wrapper());
     } on FirebaseAuthException catch (e) {
-      if (e.code == 'email-already-in-use') {
-      return   ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("email address already in use")),
+      String message;
+      switch (e.code) {
+        case 'email-already-in-use':
+          message = 'That email is already registered.';
+      break;
+        case 'invalid-email':
+          message = 'The email address is invalid.';
+
+      break;
+        case 'weak-password':
+          message = 'The password is too weak.';
+
+          break;
+        default:
+          message = e.message ?? 'Registration failed.';
+
+          }
+      print(message);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text(message,style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
       );
-      }
     }
   }
-  final formkey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -88,7 +115,6 @@ class _siUpState extends State<siUp> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Form(
                   child: Container(
                     width: 350,
                     child: TextFormField(
@@ -113,11 +139,9 @@ class _siUpState extends State<siUp> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                       ),
-                            
                     ),
                   ),
                 ),
-              ),
               SizedBox(
                 height: 30,
               ),
@@ -181,7 +205,6 @@ class _siUpState extends State<siUp> {
                 padding: const EdgeInsets.all(2.0),
                 child: OutlinedButton(
                   onPressed: () {
-                    formkey.currentState!.validate();
                     Navigator.push(context, MaterialPageRoute(builder: (context) => login()));
                   },
                   style: OutlinedButton.styleFrom(

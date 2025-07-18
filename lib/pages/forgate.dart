@@ -15,7 +15,31 @@ class forgate extends StatefulWidget {
 class _forgateState extends State<forgate> {
   TextEditingController email = TextEditingController();
   reset()async{
-    await FirebaseAuth.instance.sendPasswordResetEmail(email: email.text);
+    final emailText = email.text.trim();
+    if (emailText.isEmpty) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("Please enter Registered email",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+      );
+      return;
+    }
+    try{
+      await FirebaseAuth.instance.sendPasswordResetEmail(email: email.text);
+    } on FirebaseAuthException catch(e){
+      String message;
+      if (e.code == 'user-not-found') {
+        message = 'No user found with this email.';
+      } else if (e.code == 'invalid-email') {
+        message = 'The email address is invalid.';
+      } else {
+        message = e.message ?? 'Failed to send reset email.';
+      }
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(message, style: TextStyle(color: AppColors.royal_gold)),
+          backgroundColor: AppColors.deep_black,
+        ),
+      );
+    }
   }
   @override
   Widget build(BuildContext context) {

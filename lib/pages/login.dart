@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:dev_02/pages/forgate.dart';
 import 'package:dev_02/pages/siUp.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -19,23 +21,30 @@ class _loginState extends State<login> {
 
 
   signIn()async{
-    if (email.isNull || password.isNull) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Please enter email and password",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
-      );
-      return;
-    }
-
-    try {
+    final emailText = email.text.trim();
+    final passwordText = password.text.trim();
+     try {
       await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text, password: password.text);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text("Login successful!",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
       );
       // Navigate to your home page or main screen here
     } on FirebaseAuthException catch (e) {
+      if (emailText.isEmpty) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text("Please enter Registered email",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+        );
+        return;
+      }
+      if (passwordText.isEmpty) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Please Enter Password",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+        );
+        return;
+      }
       // Handle Firebase login errors
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Center(child: Text( "Please  Enter  Valid  Details ",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),)),backgroundColor: AppColors.deep_black,),
+        SnackBar(content: Center(child: Text( "Invalid  Email or Password ",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),)),backgroundColor: AppColors.deep_black,),
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -48,6 +57,7 @@ class _loginState extends State<login> {
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       resizeToAvoidBottomInset: false,
       backgroundColor: AppColors.deep_black,
@@ -55,6 +65,7 @@ class _loginState extends State<login> {
       Center(
         child: SingleChildScrollView(
           child: Column(
+
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
@@ -64,11 +75,12 @@ class _loginState extends State<login> {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25,vertical: 25),
+
                 child: Text("Enter The  Realm"
                   , style:
                   TextStyle(
                     fontFamily: 'GameOfThrones',
-                    fontSize: 25,
+                    fontSize: screenWidth * 0.06,
                     color: AppColors.royal_gold,
                   ),
                 ),
@@ -79,7 +91,7 @@ class _loginState extends State<login> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: Container(
-                      width: 350,
+                      width: double.infinity,
                       child: TextFormField(
                         cursorColor: AppColors.textSecondary,
                         style: TextStyle(
@@ -120,7 +132,7 @@ class _loginState extends State<login> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: Container(
-                      width: 350,
+                      width: double.infinity,
                       child: TextFormField(
                         controller: password,
                         cursorColor: AppColors.textSecondary,
@@ -167,7 +179,7 @@ class _loginState extends State<login> {
                             onTap: (){
                               Navigator.push(context, MaterialPageRoute(builder: (context) => forgate()));
                             },
-                            child: Text("Send a Raven to recover your words.?",style: TextStyle(color: AppColors.textSecondary,fontSize: 19),)),
+                            child: Text("Send a Raven to recover your words.?",style: TextStyle(color: AppColors.textSecondary,fontSize: 17),)),
                       ),
                     ],
                   ),
@@ -202,7 +214,7 @@ class _loginState extends State<login> {
 
           Padding(
             padding: const EdgeInsets.only(top: 20),
-            child: Text("New to the Realm? Join the Game.? ",style: TextStyle(color: AppColors.royal_gold,fontFamily: 'GameOfThrones',fontSize: 14),),
+            child: Text("New to the Realm? Join the Game.? ",style: TextStyle(color: AppColors.royal_gold,fontFamily: 'GameOfThrones',fontSize: 13),),
           ),
           OutlinedButton(
             onPressed: () {
