@@ -43,8 +43,9 @@ class Dragonsdetailscreen extends StatelessWidget {
               child: Text(description,style: TextStyle(fontSize: 19,color: AppColors.textSecondary,fontWeight: FontWeight.w900),
               textAlign: TextAlign.justify,),
             ),
-            SizedBox(height: 10,)
+            SizedBox(height: 60,)
           ],
+
         ),
       ),
     );
