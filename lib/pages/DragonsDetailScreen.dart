@@ -34,7 +34,12 @@ class Dragonsdetailscreen extends StatelessWidget {
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(30),
-                child: Image.asset(imageurl),
+                child: Image.network(imageurl,  loadingBuilder: (context, child, loadingpprogress) {
+                  if (loadingpprogress == null) return child;
+                  return Center(
+                    child: CircularProgressIndicator(color: AppColors.royal_gold),
+                  );
+                },),
               ),
             ),
             ),

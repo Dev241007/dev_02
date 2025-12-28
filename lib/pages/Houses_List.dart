@@ -87,19 +87,22 @@ Widget buildHouses() {
                       alignment: Alignment.bottomCenter,
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                          h.name,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            fontFamily: 'GameOfThrones',
-                            shadows: [
-                              Shadow(
-                                blurRadius: 8,
-                                color: Colors.black,
-                                offset: Offset(2, 2),
-                              ),
-                            ],
+                        child: Hero(
+                          tag: h.name,
+                          child: Text(
+                            h.name,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontFamily: 'GameOfThrones',
+                              shadows: [
+                                Shadow(
+                                  blurRadius: 8,
+                                  color: Colors.black,
+                                  offset: Offset(2, 2),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),

@@ -41,9 +41,9 @@ class Housedetailscreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(50)),
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(30),
-                child: Image.asset(imageUrl))),
-      ),
-      Padding(
+                child: Hero(tag: imageUrl,child: Image.asset(imageUrl)))),
+              ),
+              Padding(
         padding: const EdgeInsets.all(10.0),
         child: Text(
           description,
@@ -51,13 +51,13 @@ class Housedetailscreen extends StatelessWidget {
               color: AppColors.textSecondary,
               fontWeight: FontWeight.w900),
           textAlign: TextAlign.justify,
-
+        
         ),
-      ),
-
-      SizedBox(height: 50,)
-      ],
-    ),)
+              ),
+        
+              SizedBox(height: 50,)
+              ],
+            ),)
     ,
     );
   }

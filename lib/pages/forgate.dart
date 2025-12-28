@@ -14,40 +14,19 @@ class forgate extends StatefulWidget {
 
 class _forgateState extends State<forgate> {
   TextEditingController email = TextEditingController();
-  reset()async{
-    final emailText = email.text.trim();
-    if (emailText.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Please enter Registered email",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
-      );
-      return;
-    }
-    try{
-      await FirebaseAuth.instance.sendPasswordResetEmail(email: email.text);
-    } on FirebaseAuthException catch(e){
-      String message;
-      if (e.code == 'user-not-found') {
-        message = 'No user found with this email.';
-      } else if (e.code == 'invalid-email') {
-        message = 'The email address is invalid.';
-      } else {
-        message = e.message ?? 'Failed to send reset email.';
-      }
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(message, style: TextStyle(color: AppColors.royal_gold)),
-          backgroundColor: AppColors.deep_black,
-        ),
-      );
-    }
+
+  reset() async {
+    await FirebaseAuth.instance.sendPasswordResetEmail(
+        email: email.text.trim());
   }
+
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         leading: IconButton(
-          icon : Icon(Icons.arrow_back,color: AppColors.royal_gold,size: 25,),
+          icon: Icon(Icons.arrow_back, color: AppColors.royal_gold, size: 25,),
           onPressed: () {
             navigator?.pop(context);
           },
@@ -58,97 +37,125 @@ class _forgateState extends State<forgate> {
       body:
       SafeArea(
         child: Center(
-          child: SingleChildScrollView(
-            child: Column(
+            child: SingleChildScrollView(
+              child: Column(
 
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
                 Lottie.asset(
-                    'assets/animations/animation-1.json',
-                    height: 250,
+                'assets/animations/animation-1.json',
+                height: 250,
+              ),
+              SizedBox(height: 50,),
+              Text("Send a Raven"
+                , style:
+                TextStyle(
+                  fontSize: 25,
+                  fontFamily: 'GameOfThrones',
+                  color: AppColors.royal_gold,
                 ),
-                SizedBox(height: 50,),
-                Text("Send a Raven"
-                  , style:
-                  TextStyle(
-                    fontSize: 25,
-                    fontFamily: 'GameOfThrones',
-                    color: AppColors.royal_gold,
-                  ),
-                ),
+              ),
 
-                SizedBox(
-                  height: 20,
-                ),
-                Column(
-                  children: [
+              SizedBox(
+                height: 20,
+              ),
+              Column(
+                children: [
 
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: Container(
-                        width: 350,
-                        child: TextFormField(
-                          cursorColor: AppColors.textSecondary,
-                          style: TextStyle(color: AppColors.textWhite),
-                          controller: email,
-                          keyboardType: TextInputType.emailAddress,
-                          decoration: InputDecoration(
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: Container(
+                      width: 350,
+                      child: TextFormField(
+                        cursorColor: AppColors.textSecondary,
+                        style: TextStyle(color: AppColors.textWhite),
+                        controller: email,
+                        keyboardType: TextInputType.emailAddress,
+                        decoration: InputDecoration(
                             filled: true,
                             fillColor: AppColors.dark_gray,
-                            labelText:"Raven’s Address",
-                            labelStyle: TextStyle(color: AppColors.textSecondary),
+                            labelText: "Raven’s Address",
+                            labelStyle: TextStyle(
+                                color: AppColors.textSecondary),
                             hintText: "Enter Your Raven’s Address",
-                            hintStyle: TextStyle(color: AppColors.textSecondary),
-                            prefixIcon: Icon(Icons.email,color: AppColors.royal_gold),
+                            hintStyle: TextStyle(
+                                color: AppColors.textSecondary),
+                            prefixIcon: Icon(
+                                Icons.email, color: AppColors.royal_gold),
                             focusedBorder: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
-                              borderSide: const BorderSide(color: AppColors.royal_gold)
+                                borderSide: const BorderSide(
+                                    color: AppColors.royal_gold)
                             ),
                             enabledBorder: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
-                                borderSide: const BorderSide(color: AppColors.textSecondary)
+                                borderSide: const BorderSide(
+                                    color: AppColors.textSecondary)
                             )
-                          ),
-                          onChanged: (String value ) {
-                          },// use to store your email id in this field
-                          validator: (value){
-                            return value!.isEmpty ? "Please Enter Email " : null;
-                          },
                         ),
+                        onChanged: (String value) {},
+                        // use to store your email id in this field
+                        validator: (value) {
+                          return value!.isEmpty ? "Please Enter Email " : null;
+                        },
                       ),
                     ),
-                    SizedBox(
-                      height: 30,
-                    ),
+                  ),
+                  SizedBox(
+                    height: 30,
+                  ),
 
-                  ],
-                ),
+                ],
+              ),
 
-                OutlinedButton(
-                    onPressed: (()=>forgate()),
-                    style: OutlinedButton.styleFrom(
-                      side: BorderSide(
-                        color: AppColors.royal_gold,
-                        width: 2.0
-                      ),
-                      backgroundColor: AppColors.royal_gold,
-                      foregroundColor: AppColors.deep_black,
-                      textStyle: const TextStyle(
-                        fontFamily: 'GameOfThrones',
-                        fontSize: 15,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                    child: Text("Send Raven")
-                )
-              ],
+              OutlinedButton(
+                  onPressed: () async {
+                    if (email.text.isEmpty || !email.text.contains("@")) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text(
+                          "Please enter a valid email address.",
+                          style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),
+                          backgroundColor: AppColors.dark_black,),
+                      );
+                      return;
+                    }
+
+                    try {
+                      await reset();
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text(
+                            "Reset link sent! Check your email.",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.dark_black,),
+                      );
+                    } catch (e) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text("Error: ${e.toString()}")),
+                      );
+                    }
+                  },
+                  style: OutlinedButton.styleFrom(
+                  side: BorderSide(
+                  color: AppColors.royal_gold,
+                  width: 2.0
+              ),
+              backgroundColor: AppColors.royal_gold,
+              foregroundColor: AppColors.deep_black,
+              textStyle: const TextStyle(
+                fontFamily: 'GameOfThrones',
+                fontSize: 15,
+              ),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
             ),
-          ),
-        ),
+            child: Text("Send Raven")
+        )
+        ],
       ),
+    ),)
+    ,
+    )
+    ,
     );
   }
 }

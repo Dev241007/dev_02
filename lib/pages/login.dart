@@ -1,11 +1,12 @@
-import 'dart:ffi';
 
 import 'package:dev_02/pages/forgate.dart';
 import 'package:dev_02/pages/siUp.dart';
+import 'package:dev_02/pages/wrapper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:dev_02/pages/colors.dart';
 import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:lottie/lottie.dart';
 
 class login extends StatefulWidget {
@@ -24,21 +25,23 @@ class _loginState extends State<login> {
     final emailText = email.text.trim();
     final passwordText = password.text.trim();
      try {
-      await FirebaseAuth.instance.signInWithEmailAndPassword(email: email.text, password: password.text);
+      await FirebaseAuth.instance.signInWithEmailAndPassword(email: emailText, password: passwordText);
+      Get.offAll(Wrapper());
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Login successful!",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+        SnackBar(content: Text("Login successful!",style:TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.deep_black,),
       );
+
       // Navigate to your home page or main screen here
     } on FirebaseAuthException catch (e) {
       if (emailText.isEmpty) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text("Please enter Registered email",style: TextStyle(color: AppColors.royal_gold),),backgroundColor: AppColors.deep_black,),
+          SnackBar(content: Text("Please enter Registered email",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.deep_black,),
         );
         return;
       }
       if (passwordText.isEmpty) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text("Please Enter Password",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+          const SnackBar(content: Text("Please Enter Password",style:TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.deep_black,),
         );
         return;
       }

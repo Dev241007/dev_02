@@ -1,4 +1,5 @@
 import 'package:dev_02/pages/HousesPage.dart';
+import 'package:dev_02/pages/OnBoardingScreen.dart';
 import 'package:dev_02/pages/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

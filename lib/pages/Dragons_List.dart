@@ -13,6 +13,7 @@ class Dragons {
     required this.imgurl,
     required this.description,
   });
+
   factory Dragons.fromMap(Map<String, dynamic> map) {
     return Dragons(
       name: map['name'] ?? '',
@@ -40,7 +41,7 @@ Future<List<Dragons>> loadDragonsFromFirebase() async {
       dragonsList.add(Dragons.fromMap(Map<String, dynamic>.from(value)));
     });
   }
-return dragonsList;
+  return dragonsList;
 }
 
 Widget buildDragon() {
@@ -48,7 +49,9 @@ Widget buildDragon() {
     future: loadDragonsFromFirebase(),
     builder: (context, snapshot) {
       if (snapshot.connectionState == ConnectionState.waiting) {
-        return Center(child: CircularProgressIndicator(color: AppColors.royal_gold,));
+        return Center(
+          child: CircularProgressIndicator(color: AppColors.royal_gold),
+        );
       }
       if (snapshot.hasError) {
         return Center(child: Text("Error loading legends"));
@@ -84,7 +87,18 @@ Widget buildDragon() {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    Image.asset(D.imgurl, fit: BoxFit.cover),
+                    Image.network(
+                      D.imgurl,
+                      fit: BoxFit.cover,
+                      loadingBuilder: (context, child, loadingpprogress) {
+                        if (loadingpprogress == null) return child;
+                        return Center(
+                          child: CircularProgressIndicator(
+                            color: AppColors.royal_gold,
+                          ),
+                        );
+                      },
+                    ),
                     Container(color: Colors.black.withOpacity(0.5)),
                     Align(
                       alignment: Alignment.bottomCenter,

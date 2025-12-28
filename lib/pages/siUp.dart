@@ -31,19 +31,19 @@ class _siUpState extends State<siUp> {
     }
     if (!isValidEmail(emailText)) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Please enter a valid email address",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+        SnackBar(content: Text("Please enter a valid email address",style: TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.deep_black,),
       );
       return;
     }
     if ( passwordText.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text("Please Enter Password",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+        const SnackBar(content: Text("Please Enter Password",style:TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.deep_black,),
       );
       return;
     }
     if ( passwordText.length < 6) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text(" Password At Least 6 character",style: TextStyle(color: AppColors.royal_gold,fontFamily: "Sora"),),backgroundColor: AppColors.deep_black,),
+        const SnackBar(content: Text(" Password At Least 6 character",style:TextStyle(color: AppColors.error,fontFamily: 'Sora',fontSize: 15),),backgroundColor: AppColors.deep_black,),
       );
       return;
     }

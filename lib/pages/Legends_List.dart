@@ -74,7 +74,12 @@ Widget buildLegends() {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    Image.asset(L.imgurl, fit: BoxFit.cover),
+                    Image.network(L.imgurl, fit: BoxFit.cover, loadingBuilder: (context, child, loadingpprogress) {
+                      if (loadingpprogress == null) return child;
+                      return Center(
+                        child: CircularProgressIndicator(color: AppColors.royal_gold),
+                      );
+                    },),
                     Container(color: Colors.black.withOpacity(0.5)),
                     Align(
                       alignment: Alignment.bottomCenter,

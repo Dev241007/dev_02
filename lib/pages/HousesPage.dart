@@ -1,4 +1,5 @@
 import 'package:dev_02/pages/Map.dart';
+import 'package:dev_02/pages/aboutScreen.dart';
 import 'package:dev_02/pages/colors.dart';
 import 'package:dev_02/pages/housesFamilytree.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -155,7 +156,7 @@ class _HousesPageState extends State<HousesPage> {
                   ),
                   onTap: () {
                     Share.share(
-                      '📱 Download Game of Thrones - Houses and Dragons!\nhttps://play.google.com/store/apps/details?id=com.yourcompany.got_app',
+                      '📱 Download Game of Thrones - Houses and Dragons!\n',
                     );
                   },
                 ),
@@ -208,6 +209,20 @@ class _HousesPageState extends State<HousesPage> {
                               ],
                             ),
                       ),
+                ),
+                ListTile(
+                  leading: Icon(Icons.info  , color: AppColors.royal_gold),
+                  title: Text(
+                    "About",
+                    style: TextStyle(
+                      color: AppColors.royal_gold,
+                      fontFamily: 'GameOfThrones',
+                      fontSize: 12,
+                    ),
+                  ),
+                  onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => Aboutscreen()));
+                  },
                 ),
               ],
             ),

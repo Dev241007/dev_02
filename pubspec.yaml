@@ -45,6 +45,7 @@ dependencies:
   flutter_launcher_icons: ^0.14.3
   path_provider: ^2.1.5
   firebase_database: ^11.3.7
+  smooth_page_indicator:
 
 dev_dependencies:
   flutter_test:
@@ -56,12 +57,12 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
-
-flutter_native_splash: # 👈 Top-level key (same level as dependencies
-  color: "#0D0D0D"
-  image: assets/images/stark.jpg
-  android: true
-  ios: false
+#
+#flutter_native_splash: #  Top-level key (same level as dependencies
+#  color: "#0D0D0D"
+#  image: assets/images/stark.jpg
+#  android: true
+#  ios: false
 
 flutter_launcher_icons:
   android: true
@@ -89,9 +90,12 @@ flutter:
     - assets/icons/dragon.png
     - assets/icons/
     - assets/images/
+    - assets/images/iron.png
+    - assets/images/person.png
+    - assets/images/map.png
+    - assets/images/dragon.png
+    - assets/images/screen1.png
     - assets/animations/
-    - assets/images/dragons/
-    - assets/images/Legends/
 #    - assets/animations/animation-1.json
 #    - assets/animations/animation-2.json
 #    - assets/animations/animation-3.json
