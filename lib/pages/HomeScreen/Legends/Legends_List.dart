@@ -4,7 +4,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 import 'LegendDetailScreen.dart';
-import 'colors.dart';
+import '../../Ui/colors.dart';
 
 class Legends {
   final String name;

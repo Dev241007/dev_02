@@ -1,10 +1,10 @@
 
-import 'package:dev_02/pages/forgate.dart';
-import 'package:dev_02/pages/siUp.dart';
+import 'package:dev_02/pages/Auth/forgate.dart';
+import 'package:dev_02/pages/Auth/siUp.dart';
 import 'package:dev_02/pages/wrapper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:dev_02/pages/colors.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:lottie/lottie.dart';

@@ -1,5 +1,5 @@
-import 'package:dev_02/pages/colors.dart';
-import 'package:dev_02/pages/login.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
+import 'package:dev_02/pages/Auth/login.dart';
 import 'package:dev_02/pages/wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';

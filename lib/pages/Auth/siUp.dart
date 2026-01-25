@@ -1,9 +1,9 @@
-import 'package:dev_02/pages/login.dart';
+import 'package:dev_02/pages/Auth/login.dart';
 import 'package:dev_02/pages/wrapper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:dev_02/pages/colors.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
 import 'package:lottie/lottie.dart';
 
 class siUp extends StatefulWidget {

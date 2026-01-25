@@ -1,7 +1,7 @@
-import 'package:dev_02/pages/FamlyTree.dart';
+import 'package:dev_02/pages/HomeScreen/DrawerHeader/FamlyTree.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'colors.dart';
+import '../../Ui/colors.dart';
 
 class Housestree {
   final String name;

@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:dev_02/pages/colors.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
 import 'package:lottie/lottie.dart';
 

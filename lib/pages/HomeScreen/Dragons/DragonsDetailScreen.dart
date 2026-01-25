@@ -1,4 +1,4 @@
-import 'package:dev_02/pages/colors.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
 import 'package:flutter/material.dart';
 
 class Dragonsdetailscreen extends StatelessWidget {

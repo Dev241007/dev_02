@@ -1,7 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'DragonsDetailScreen.dart';
-import 'colors.dart';
+import '../../Ui/colors.dart';
 
 class Dragons {
   final String name;

@@ -1,14 +1,14 @@
-import 'package:dev_02/pages/Map.dart';
-import 'package:dev_02/pages/aboutScreen.dart';
-import 'package:dev_02/pages/colors.dart';
-import 'package:dev_02/pages/housesFamilytree.dart';
+import 'package:dev_02/pages/HomeScreen/DrawerHeader/Map.dart';
+import 'package:dev_02/pages/HomeScreen/DrawerHeader/aboutScreen.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
+import 'package:dev_02/pages/HomeScreen/DrawerHeader/housesFamilytree.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'Dragons_List.dart';
-import 'Houses_List.dart';
-import 'Legends_List.dart';
+import 'HomeScreen/Dragons/Dragons_List.dart';
+import 'HomeScreen/Houses/Houses_List.dart';
+import 'HomeScreen/Legends/Legends_List.dart';
 
 class HousesPage extends StatefulWidget {
   const HousesPage({super.key});

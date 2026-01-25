@@ -1,4 +1,4 @@
-import 'package:dev_02/pages/colors.dart';
+import 'package:dev_02/pages/Ui/colors.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
@@ -42,7 +42,7 @@ class _AboutscreenState extends State<Aboutscreen> {
           : Padding(
         padding: const EdgeInsets.only(bottom: 40,right: 10,left: 10,top: 10),
         child: SingleChildScrollView(
-          child: Text(
+          child: SelectableText(
             description!,
             style: TextStyle(
               fontSize: 17,
