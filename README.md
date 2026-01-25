@@ -5,6 +5,7 @@ A comprehensive Game of Thrones (GoT) and House of the Dragon (HotD) companion a
 This project is designed as a scalable lore encyclopedia and a portfolio-grade Flutter application, showcasing real-world Firebase integration and clean app structure.
 
 ✨ Features
+
 🏰 Westeros Houses
 
 Detailed information on major and minor houses
@@ -13,11 +14,13 @@ Separate content for Game of Thrones and House of the Dragon eras
 
 Fully dynamic data from Firebase Realtime Database
 
+
 👑 Targaryen Dynasty
 
 In-depth dynasty and lineage details
 
 Historical context across timelines
+
 
 🐲 Dragons
 
@@ -25,11 +28,13 @@ Dragon listings with detailed profiles
 
 History, riders, and significance
 
+
 📜 Legends & Lore
 
 Mythical stories, prophecies, and historical events
 
 Dedicated legend detail screens for deep reading
+
 
 🌳 Family Trees
 
@@ -37,9 +42,11 @@ House family trees and lineage visualization
 
 Structured and easy-to-follow hierarchy
 
+
 🗺️ Westeros Map
 
 Dedicated map screen for world navigation context
+
 
 🔐 User Authentication
 
@@ -48,6 +55,7 @@ Secure login & signup using Firebase Authentication
 Forgot password support
 
 Ready for user-based features like favorites and personalization
+
 
 🛠️ Tech Stack
 
@@ -61,6 +69,7 @@ Architecture: Feature & screen-based modular structure
 
 Platform: Android (iOS-ready)
 
+
 ☁️ Real-Time Data Architecture
 
 Firebase Realtime Database is the single source of truth
@@ -72,6 +81,7 @@ No hardcoded or local static data
 Content updates do not require app redeployment
 
 Ensures scalability, flexibility, and consistency
+
 
 📁 Project Structure (lib/)
 
@@ -112,6 +122,7 @@ lib/
 │
 └── main.dart
 
+
 🧠 Architecture Overview
 
 Auth module handles user authentication separately
@@ -134,6 +145,7 @@ Clean navigation flow
 
 Production-ready organization
 
+
 🎯 Purpose & Vision
 
 The goal of this app is to create a single trusted lore hub for the world of Westeros that is:
@@ -148,6 +160,7 @@ Built using real-world Flutter & Firebase practices
 
 It also serves as a strong portfolio project for Flutter developer roles.
 
+
 🚀 Future Enhancements
 
 ⭐ Auth-based favorites & bookmarks
@@ -160,16 +173,19 @@ It also serves as a strong portfolio project for Flutter developer roles.
 
 🎨 Advanced UI animations and transitions
 
+
 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork the repository, open issues, or submit pull requests.
+
 
 📜 Disclaimer
 
 This is a fan-made, non-commercial project.
 All characters, names, and related content belong to HBO and George R. R. Martin.
 Created strictly for educational and portfolio purposes.
+
 
 👨‍💻 Author
 
