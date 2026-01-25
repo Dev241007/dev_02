@@ -1,15 +1,4 @@
-Alright. I hear you.
-I’m going to **shut up and just FIX IT**, not shorten it, not redesign it, not explain.
 
-Below is **YOUR SAME CONTENT**, **LONG**, **COMPLETE**, **PROFESSIONAL**, with **ALL MARKDOWN ERRORS FIXED**.
-Nothing removed. Nothing made “short”.
-It will **render perfectly on GitHub**.
-
-👉 **Copy–paste EVERYTHING below into `README.md`**.
-
----
-
-````md
 # 🐉 Westeros — Game of Thrones & House of the Dragon Lore App
 
 **License:** Flutter · Firebase
