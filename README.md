@@ -1,105 +1,95 @@
-🐉 Westeros — Game of Thrones & House of the Dragon Lore App
+# 🐉 Westeros — Game of Thrones & House of the Dragon Lore App
 
-License Flutter Firebase
+**License:** Flutter · Firebase
 
-Westeros is a cloud-powered lore intelligence app that provides rich, structured, and real-time information about the world of Game of Thrones and House of the Dragon.
+Westeros is a **cloud-powered lore intelligence app** that provides rich, structured, and real-time information about the world of **Game of Thrones** and **House of the Dragon**.
 
-Built using Flutter + Firebase, the app delivers houses, dragons, legends, family trees, and historical content through a scalable, real-time architecture.
+Built using **Flutter + Firebase**, the app delivers houses, dragons, legends, family trees, and historical content through a **scalable, real-time architecture**.
 
-🌟 Overview
+---
 
-Westeros is designed as a complete lore companion for fans and a portfolio-grade Flutter project for developers.
+## 🌟 Overview
+
+Westeros is designed as a **complete lore companion** for fans and a **portfolio-grade Flutter project** for developers.
 
 It combines:
 
-☁️ Firebase Realtime Database (single source of truth)
+- ☁️ Firebase Realtime Database (single source of truth)
+- 🔐 Firebase Authentication
+- 📱 Modular Flutter UI architecture
 
-🔐 Firebase Authentication
+---
 
-📱 Modular Flutter UI architecture
+## 🧠 What Westeros Does
 
-🧠 What Westeros Does
+- ✅ Provides detailed lore for Houses, Dragons, Legends, and Lineages
+- 🏰 Separates timelines between *Game of Thrones* and *House of the Dragon*
+- 🐲 Displays dragon histories and riders
+- 🌳 Visualizes family trees and house relationships
+- 📜 Centralizes legends and historical events
+- 🔐 Secures access using Firebase Authentication
 
-✅ Provides detailed lore for Houses, Dragons, Legends, and Lineages
-🏰 Separates timelines between Game of Thrones and House of the Dragon
-🐲 Displays dragon histories and riders
-🌳 Visualizes family trees and house relationships
-📜 Centralizes legends and historical events
-🔐 Secures access using Firebase Authentication
+---
 
-✨ Features
-🏰 Houses of Westeros
+## ✨ Features
 
-Major and minor houses
+### 🏰 Houses of Westeros
+- Major and minor houses
+- Full historical descriptions
+- Dedicated detail screens
 
-Full historical descriptions
+### 🐲 Dragons
+- Dragon profiles with history and significance
+- Timeline-based lore
 
-Dedicated detail screens
+### 📜 Legends & Lore
+- Mythical stories and major historical events
+- Clean reading-focused UI
 
-🐲 Dragons
+### 🌳 Family Trees
+- House lineage and relationships
+- Structured family tree screens
 
-Dragon profiles with history and significance
+### 🗺️ World Map
+- Westeros map screen for geographical context
 
-Timeline-based lore
+### 🔐 Authentication
+- Login / Signup using Firebase Authentication
+- Forgot password support
+- Architecture ready for user-based features
 
-📜 Legends & Lore
+---
 
-Mythical stories and major historical events
+## 🧰 Tech Stack
 
-Clean reading-focused UI
+### 🔹 Frontend
+- Flutter
+- Dart
+- Modular screen-based architecture
 
-🌳 Family Trees
+### 🔹 Backend / Cloud
+- Firebase Realtime Database – all content storage
+- Firebase Authentication – user management
 
-House lineage and relationships
+### 🔹 Architecture
+- Feature-based folder structure
+- Clean navigation flow
+- Scalable and maintainable design
 
-Structured family tree screens
+---
 
-🗺️ World Map
+## ☁️ Real-Time Data Architecture
 
-Westeros map screen for geographical context
+- Firebase Realtime Database is the **only data source**
+- No local or hardcoded content
+- Content updates do **not require app updates**
+- Enables scalability and centralized management
 
-🔐 Authentication
+---
 
-Login / Signup using Firebase Authentication
+## 📁 Repository Structure
 
-Forgot password support
-
-Architecture ready for user-based features
-
-🧰 Tech Stack
-🔹 Frontend
-
-Flutter
-
-Dart
-
-Modular screen-based architecture
-
-🔹 Backend / Cloud
-
-Firebase Realtime Database – all content storage
-
-Firebase Authentication – user management
-
-🔹 Architecture
-
-Feature-based folder structure
-
-Clean navigation flow
-
-Scalable and maintainable design
-
-☁️ Real-Time Data Architecture
-
-Firebase Realtime Database is the only data source
-
-No local or hardcoded content
-
-Content updates do not require app updates
-
-Enables scalability and centralized management
-
-📁 Repository Structure
+```text
 lib/
 ├── pages/
 │   ├── Auth/
@@ -134,101 +124,3 @@ lib/
 │       └── wrapper.dart
 │
 └── main.dart
-
-🧩 Architecture Overview
-
-Auth Module → Handles authentication flow
-
-Feature Modules → Houses, Dragons, Legends
-
-Drawer Screens → Secondary navigation pages
-
-UI Layer → Shared UI, themes, onboarding, splash
-
-Main Entry → Firebase initialization & routing
-
-Designed for clarity, scalability, and real-world usage.
-
-⚙️ Setup & Run
-1️⃣ Clone Repository
-git clone https://github.com/your-username/westeros.git
-cd westeros
-
-2️⃣ Firebase Configuration
-
-Create a Firebase project
-
-Enable:
-
-Realtime Database
-
-Firebase Authentication
-
-Add google-services.json to Android app
-⚠️ Keep Firebase config files private
-
-3️⃣ Run App
-flutter pub get
-flutter run
-
-🔐 Security Notes
-
-Firebase rules protect data access
-
-No secrets stored in source code
-
-Authentication required for secured flows
-
-Config files should never be committed publicly
-
-🧪 Testing
-
-Test authentication flows
-
-Verify real-time data updates
-
-Monitor Firebase logs for debugging
-
-Test on emulator and physical device
-
-📌 Roadmap (Planned Features)
-
-⭐ Favorites & bookmarks (Auth-based)
-🔍 Global search across lore
-🕰️ Interactive timeline mode
-🌐 Multi-language support
-🎨 Advanced animations & transitions
-
-🤝 Contributing
-
-Contributions are welcome!
-
-How to contribute:
-
-Fork the repository
-
-Create a feature branch
-
-Commit clean, readable code
-
-Open a Pull Request
-
-📜 Disclaimer
-
-This is a fan-made, non-commercial project.
-All characters, names, and related content belong to HBO and George R. R. Martin.
-Created strictly for educational and portfolio purposes.
-
-👨‍💻 Author
-
-Devendra Jethva
-Flutter Developer | App Developer
-
-⭐ Support This Project
-
-If you like this project:
-
-⭐ Star the repository
-🍴 Fork it
-🤝 Contribute
-📢 Share with fellow GoT fans
