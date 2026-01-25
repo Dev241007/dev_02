@@ -125,108 +125,106 @@ lib/
 │
 └── main.dart
 
-🧩 Architecture Overview
+# 🧩 Architecture Overview
 
-Auth Module → Handles authentication flow
+- **Auth Module** → Handles authentication flow  
+- **Feature Modules** → Houses, Dragons, Legends  
+- **Drawer Screens** → Secondary navigation pages  
+- **UI Layer** → Shared UI, themes, onboarding, splash  
+- **Main Entry** → Firebase initialization & routing  
 
-Feature Modules → Houses, Dragons, Legends
+Designed for **clarity, scalability, and real-world usage**.
 
-Drawer Screens → Secondary navigation pages
+---
 
-UI Layer → Shared UI, themes, onboarding, splash
+# ⚙️ Setup & Run
 
-Main Entry → Firebase initialization & routing
-
-Designed for clarity, scalability, and real-world usage.
-
-⚙️ Setup & Run
-1️⃣ Clone Repository
+## 1️⃣ Clone Repository
+```bash
 git clone https://github.com/your-username/westeros.git
 cd westeros
 
-2️⃣ Firebase Configuration
+## 2️⃣ Firebase Configuration
 
-Create a Firebase project
+- Create a Firebase project
+- Enable:
+  - Realtime Database
+  - Firebase Authentication
+- Add `google-services.json` to the Android app  
 
-Enable:
+⚠️ **Keep Firebase config files private**
 
-Realtime Database
+---
 
-Firebase Authentication
+## 3️⃣ Run App
 
-Add google-services.json to the Android app
-
-⚠️ Keep Firebase config files private
-
-3️⃣ Run App
+```bash
 flutter pub get
 flutter run
 
-🔐 Security Notes
+## 🔐 Security Notes
 
-Firebase rules protect data access
+- Firebase rules protect data access
+- No secrets stored in source code
+- Authentication required for secured flows
+- Config files should never be committed publicly
 
-No secrets stored in source code
+---
 
-Authentication required for secured flows
+## 🧪 Testing
 
-Config files should never be committed publicly
+- Test authentication flows
+- Verify real-time data updates
+- Monitor Firebase logs for debugging
+- Test on emulator and physical device
 
-🧪 Testing
+---
 
-Test authentication flows
+## 📌 Roadmap
 
-Verify real-time data updates
+- ⭐ Favorites & bookmarks (Auth-based)
+- 🔍 Global search across lore
+- 🕰️ Interactive timeline mode
+- 🌐 Multi-language support
+- 🎨 Advanced animations & transitions
 
-Monitor Firebase logs for debugging
+---
 
-Test on emulator and physical device
-
-📌 Roadmap
-
-⭐ Favorites & bookmarks (Auth-based)
-
-🔍 Global search across lore
-
-🕰️ Interactive timeline mode
-
-🌐 Multi-language support
-
-🎨 Advanced animations & transitions
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Steps to Contribute
+### Steps to Contribute
+1. Fork the repository
+2. Create a feature branch
+3. Commit clean, readable code
+4. Open a Pull Request
 
-Fork the repository
+---
 
-Create a feature branch
+## 📜 Disclaimer
 
-Commit clean, readable code
+This is a **fan-made, non-commercial project**.  
+All characters, names, and related content belong to **HBO** and **George R. R. Martin**.  
+Created strictly for **educational and portfolio purposes**.
 
-Open a Pull Request
+---
 
-📜 Disclaimer
+## 👨‍💻 Author
 
-This is a fan-made, non-commercial project.
-All characters, names, and related content belong to HBO and George R. R. Martin.
-Created strictly for educational and portfolio purposes.
-
-👨‍💻 Author
-
-Devendra Jethva
+**Devendra Jethva**  
 Flutter Developer | App Developer
 
-⭐ Support This Project
+---
+
+## ⭐ Support This Project
 
 If you like this project:
 
-⭐ Star the repository
+- ⭐ Star the repository  
+- 🍴 Fork it  
+- 🤝 Contribute  
+- 📢 Share with fellow GoT fans  
 
-🍴 Fork it
-
-🤝 Contribute
 
 📢 Share with fellow GoT fans
