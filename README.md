@@ -124,3 +124,109 @@ lib/
 │       └── wrapper.dart
 │
 └── main.dart
+
+🧩 Architecture Overview
+
+Auth Module → Handles authentication flow
+
+Feature Modules → Houses, Dragons, Legends
+
+Drawer Screens → Secondary navigation pages
+
+UI Layer → Shared UI, themes, onboarding, splash
+
+Main Entry → Firebase initialization & routing
+
+Designed for clarity, scalability, and real-world usage.
+
+⚙️ Setup & Run
+1️⃣ Clone Repository
+git clone https://github.com/your-username/westeros.git
+cd westeros
+
+2️⃣ Firebase Configuration
+
+Create a Firebase project
+
+Enable:
+
+Realtime Database
+
+Firebase Authentication
+
+Add google-services.json to the Android app
+
+⚠️ Keep Firebase config files private
+
+3️⃣ Run App
+flutter pub get
+flutter run
+
+🔐 Security Notes
+
+Firebase rules protect data access
+
+No secrets stored in source code
+
+Authentication required for secured flows
+
+Config files should never be committed publicly
+
+🧪 Testing
+
+Test authentication flows
+
+Verify real-time data updates
+
+Monitor Firebase logs for debugging
+
+Test on emulator and physical device
+
+📌 Roadmap
+
+⭐ Favorites & bookmarks (Auth-based)
+
+🔍 Global search across lore
+
+🕰️ Interactive timeline mode
+
+🌐 Multi-language support
+
+🎨 Advanced animations & transitions
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Steps to Contribute
+
+Fork the repository
+
+Create a feature branch
+
+Commit clean, readable code
+
+Open a Pull Request
+
+📜 Disclaimer
+
+This is a fan-made, non-commercial project.
+All characters, names, and related content belong to HBO and George R. R. Martin.
+Created strictly for educational and portfolio purposes.
+
+👨‍💻 Author
+
+Devendra Jethva
+Flutter Developer | App Developer
+
+⭐ Support This Project
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork it
+
+🤝 Contribute
+
+📢 Share with fellow GoT fans
