@@ -125,7 +125,9 @@ lib/
 │
 └── main.dart
 
-# 🧩 Architecture Overview
+---
+
+## 🧩 Architecture Overview
 
 - **Auth Module** → Handles authentication flow  
 - **Feature Modules** → Houses, Dragons, Legends  
@@ -137,12 +139,13 @@ Designed for **clarity, scalability, and real-world usage**.
 
 ---
 
-# ⚙️ Setup & Run
+## ⚙️ Setup & Run
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/your-username/westeros.git
 cd westeros
+
 
 ## 2️⃣ Firebase Configuration
 
